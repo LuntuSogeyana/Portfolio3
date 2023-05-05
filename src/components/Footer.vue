@@ -24,6 +24,9 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    border-top: 2px solid yellow ;
+    box-shadow: 0px 5px 20px yellow;
+
   }
   
   .social-icons {

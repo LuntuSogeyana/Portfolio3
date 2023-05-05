@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact" class="contact">
     <h1>Contact Us</h1>
     <form @submit.prevent="submitForm">
       <div class="form-group">
@@ -42,12 +42,15 @@ export default {
 .contact {
   max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 50px;
   padding: 20px;
   color: yellow;
-  box-shadow: 0px 5px 15px yellow;
+  border: 2px solid yellow;
   border-radius: 5px;
-  height: 100vh;
-  background-color: black;
+  height: 69vh;
+  background-color: rgb(62, 61, 61);
+  box-shadow: 0px 5px 15px yellow;
+
 }
 
 .form-group {
@@ -63,7 +66,7 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 10px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0px 5px 15px yellow;

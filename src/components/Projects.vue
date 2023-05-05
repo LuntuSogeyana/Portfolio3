@@ -1,13 +1,13 @@
 <template>
-<div class="card-container">
+<div id="projects" class="card-container">
 
   <div class="card">
     <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
     <div class="card-content">
       <h3 class="card-title">Flip-card</h3>
       <p class="card-description">A flip card of Monkey D. Luffy</p>
-      <a class="card-link" href="">Demo</a>
-      <a class="card-link" href="">GitHub</a>
+      <a class="card-link" href="" target="_blank">Demo</a>
+      <a class="card-link" href="" target="_blank">GitHub</a>
      </div>
   </div>
 
@@ -15,9 +15,9 @@
     <img class="card-image" src="https://i.postimg.cc/gcZ67Tnz/Calculator.jpg" alt="Card 1" />
     <div class="card-content">
       <h3 class="card-title">Calculator</h3>
-      <p class="card-description">Description of project 1.</p>
-      <a class="card-link" href="https://luntucalculator.netlify.app/">Demo</a>
-      <a class="card-link" href="https://github.com/ManakiX/Calculator2.git">GitHub</a>
+      <p class="card-description">A simple calculator .</p>
+      <a class="card-link" href="https://luntucalculator.netlify.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/Calculator2.git" target="_blank">GitHub</a>
     </div>
   </div>
 
@@ -26,8 +26,8 @@
     <div class="card-content">
       <h3 class="card-title">E-commerce site</h3>
       <p class="card-description">An e-commerce site that sells One Piece merchandise.</p>
-      <a class="card-link" href="https://luntu-ecommerce.netlify.app/">Demo</a>
-      <a class="card-link" href="https://github.com/ManakiX/e-commerce.git">GitHub</a>
+      <a class="card-link" href="https://luntu-ecommerce.netlify.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/e-commerce.git" target="_blank">GitHub</a>
     </div>
   </div>
 
@@ -35,19 +35,19 @@
     <img class="card-image" src="https://i.postimg.cc/bN9Pf3cR/portfolio.png" alt="Card 4" />
     <div class="card-content">
       <h3 class="card-title">Bootstrap Portfolio</h3>
-      <p class="card-description">Description of project 4.</p>
-      <a class="card-link" href="https://luntu-portfolio.netlify.app/">Demo</a>
-      <a class="card-link" href="https://github.com/ManakiX/Portfolio.git">GitHub</a>
+      <p class="card-description">My very first portfolio create using html, css, and boostrap</p>
+      <a class="card-link" href="https://luntu-portfolio.netlify.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/Portfolio.git" target="_blank">GitHub</a>
     </div>
   </div>
 
   <div class="card">
     <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
     <div class="card-content">
-      <h3 class="card-title">Capstone Project</h3>
-      <p class="card-description">Description of project 5.</p>
-      <a class="card-link" href="https://archie-vable-gaming.web.app/">Demo</a>
-      <a class="card-link" href="https://github.com/ManakiX/Archie-VableGaming.git">GitHub</a>
+      <h3 class="card-title">Archie-Vable Gaming</h3>
+      <p class="card-description">An e-commerce site for gamers who want quality gaming equipment at achievable prices</p>
+      <a class="card-link" href="https://archie-vable-gaming.web.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/Archie-VableGaming.git" target="_blank">GitHub</a>
     </div>
   </div>
 
@@ -56,8 +56,8 @@
     <div class="card-content">
       <h3 class="card-title">To-do List</h3>
       <p class="card-description">Created a checklist to help me remember my tasks</p>
-      <a class="card-link" href="https://luntuchecklist.netlify.app/">Demo</a>
-      <a class="card-link" href="https://github.com/ManakiX/luntuchecklist.git">GitHub</a>
+      <a class="card-link" href="https://luntuchecklist.netlify.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/luntuchecklist.git" target="_blank">GitHub</a>
   </div>
 </div>
 
@@ -78,8 +78,8 @@
   margin-top: 20px;
   margin-left: 70px;
   margin-right: 50px;
-
-  background-color: white;
+  color: black;
+  background-color: rgb(62, 61, 61);
   border-radius: 10px;
   box-shadow: 0px 5px 15px yellow;
   overflow: hidden;
