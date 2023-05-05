@@ -49,10 +49,10 @@ export default {
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 .about-section {
-  border: 2px solid black;
+  border: 2px solid yellow;
   border-radius: 15px;
   outline: 2px solid yellow;
-  background-color: black;
+  background-color: rgb(62, 61, 61);
   padding: 20px;
   margin-left: 5vw;
   width: 90vw;
@@ -61,6 +61,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   color: yellow;
+  box-shadow: 0px 5px 15px yellow;
 }
 
 .section-title {
@@ -86,7 +87,7 @@ export default {
 .skill i {
   font-size: 80px;
   margin-right: 20px;
-  color: yellow;
+  color: black;
 }
 
 .skill span {

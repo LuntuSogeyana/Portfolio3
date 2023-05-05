@@ -25,7 +25,7 @@ export default {
 
 .frame-1 {
   background: #ffffff;
-  width: 1700px;
+  width: 1500px;
   height: 673px;
   position: relative;
   overflow: hidden;
@@ -78,7 +78,7 @@ export default {
 }
 
 .rectangle-10 {
-  background: rgb(73, 73, 73);
+  background: rgb(62, 61, 61);
   border-radius: 10px;
   border-style: solid;
   border-color: yellow;

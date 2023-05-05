@@ -43,10 +43,11 @@ export default {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  color: yellow;
+  box-shadow: 0px 5px 15px yellow;
   border-radius: 5px;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: black;
 }
 
 .form-group {
@@ -65,7 +66,7 @@ textarea {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  box-shadow: 0px 5px 15px yellow;
   font-size: 16px;
 }
 
@@ -74,15 +75,18 @@ button[type="submit"] {
   margin: 0 auto;
   padding: 10px 20px;
   border-radius: 5px;
-  border: none;
-  background-color: #007bff;
-  color: #fff;
+  border: 2px solid yellow;
+  box-shadow: 0px 5px 15px yellow;
+  background-color: black;
+  color: yellow;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 button[type="submit"]:hover {
-  background-color: #0062cc;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
 }
 </style>
