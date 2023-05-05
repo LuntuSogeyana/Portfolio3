@@ -1,59 +1,117 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="frame-1">
+    <div class="rectangle-1"></div>
+    <div class="rectangle-10"></div>
+    <div class="hi-i-am-luntu-sogeyana-a-web-developer">
+      Hi, I am Luntu Sogeyana,<br />a Web Developer!
+    </div>
+    <img class="dsc-3496-removebg-2" src="https://i.postimg.cc/Hxv8CVdV/DSC-3496-removebg.png" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.frame-1 {
+  background: #ffffff;
+  width: 1700px;
+  height: 673px;
+  position: relative;
+  overflow: hidden;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.rectangle-1 {
+  background: black;
+  width: 1520px;
+  height: 673px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-a {
-  color: #42b983;
+
+.navigation {
+  position: absolute;
+  inset: 0;
+}
+
+.about,
+.projects,
+.testimonials,
+.contact-me,
+.home {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  top: 43px;
+}
+
+.about {
+  left: 1067px;
+}
+
+.projects {
+  left: 1220px;
+}
+
+.testimonials {
+  left: 1373px;
+}
+
+.contact-me {
+  left: 1525px;
+}
+
+.home {
+  left: 915px;
+}
+
+.rectangle-10 {
+  background: rgb(73, 73, 73);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 1px;
+  width: 1250px;
+  height: 513px;
+  position: absolute;
+  left: 159px;
+  top: 80px;
+}
+
+.hi-i-am-luntu-sogeyana-a-web-developer {
+  color: yellow;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Inter';
+  font-size: 44px;
+  position: absolute;
+  left: 620px;
+  top: 259px;
+  width: 586px;
+  height: 164px;
+}
+
+.dsc-3496-removebg-2 {
+  width: 533px;
+  height: 751px;
+  position: absolute;
+  left: 50px;
+  top: -81px;
 }
 </style>
+
+
