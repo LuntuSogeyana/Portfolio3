@@ -83,7 +83,7 @@ export default {
   border-style: solid;
   border-color: yellow;
   border-width: 1px;
-  width: 1250px;
+  width: 1061px;
   height: 513px;
   position: absolute;
   left: 159px;

@@ -1,15 +1,23 @@
 <template>
-  <div id="testimonials" class="testimonials" v-intersect="onIntersect">
-    <h2 class="testimonials__title">Testimonials</h2>
-    <transition-group name="fade" tag="div" class="testimonials__list">
-      <div class="testimonial" v-for="(testimonial, index) in testimonials" :key="index">
-        <div class="testimonial__image" :style="{ 'animation-delay': `${index * 0.2}s` }">
-          <img :src="testimonial.image" alt="testimonial author">
-        </div>
-        <div class="testimonial__text">{{ testimonial.text }}</div>
-        <div class="testimonial__author">{{ testimonial.author }}</div>
+  <div class="content-wrapper">
+    <h1>Testimonials</h1>
+    <div class="blue-line"></div>
+    <div class="wrapper-for-arrows">
+      <div class="arrow-wrap left-arrow-wrap" @click="prevTestimonial">
+        <div class="arrow"></div>
       </div>
-    </transition-group>
+      <div class="review-wrap">
+        <div id="imgDiv">
+          <img :src="testimonial.image" :alt="testimonial.name" />
+        </div>
+        <div id="personName">{{ testimonial.name }}</div>
+        <div id="profession">{{ testimonial.profession }}</div>
+        <div id="description">{{ testimonial.description }}</div>
+      </div>
+      <div class="arrow-wrap right-arrow-wrap" @click="nextTestimonial">
+        <div class="arrow"></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -19,130 +27,274 @@ export default {
     return {
       testimonials: [
         {
-          text: "Luntu is one of a kind, he has ideas you would think are impossible, until he shows you in the idea in it's fullest and you realize, he's a genius.He has a bright future in front of him and he's always willing to learn new types of things to broaden up he's knowledge.",
-          author: 'Konke Malindi',
-          image: 'https://via.placeholder.com/150'
+          name: "Joel M.",
+          profession: "Lecturer",
+          description:
+            "Vivamus condimentum sagittis magna non facilisis. Nullam vestibulum odio quis nunc lobortis, id laoreet justo scelerisque. Mauris faucibus ultricies felis vitae sagittis.",
+          image: "https://i.postimg.cc/Ghbvn8KL/Joel-Profile.jpg"
         },
         {
-          text: "Luntu is one of the most honest people you can come across. Very wise beyond his years with bright ideas which could shake the world in a very positive way. A man who is not afraid to live and speak his truth.",
-          author: 'Sakhe Mzolisa',
-          image: 'https://via.placeholder.com/150'
+          name: "Sakhe",
+          profession: "Web Developer",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi ut massa pellentesque lacinia. Curabitur dapibus tortor ut metus congue, sit amet finibus felis hendrerit.",
+          image: "https://i.postimg.cc/Kz8bHftL/Sakhe.jpg"
         },
         {
-          text: "Luntu is a very creative, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I will be very delighted to see him get hired as a developer.",
-          author: 'Joel Mukanya',
-          image: 'https://i.postimg.cc/13xJQg6X/image.jpg'
+          name: "Timmothy J.",
+          profession: "Web Developer Intern",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi ut massa pellentesque lacinia. Curabitur dapibus tortor ut metus congue, sit amet finibus felis hendrerit.",
+          image: "https://i.postimg.cc/vH76FhmR/C11-1.jpg"
         },
         {
-          text: "Luntu is a hard-working guy who can accomplish anything he puts his mind to. He has a very friendly personality which makes it very easy to oproach him. He is very dedicated and committed to any project that he has set for himself.",
-          author: 'Timothy Jennike',
-          image: 'https://via.placeholder.com/150'
+          name: "Brandon S.",
+          profession: "Web Developer Intern",
+          description:
+            "Vivamus condimentum sagittis magna non facilisis. Nullam vestibulum odio quis nunc lobortis, id laoreet justo scelerisque. Mauris faucibus ultricies felis vitae sagittis.",
+          image: "https://i.postimg.cc/QdGJWsyD/C11-Brandon-Swinton-1.jpg"
         },
         {
-          text: "Luntu is a serious & fun individual who enjoys learning and exploring different things. He enthusiasm into his work allows him to be creative with the littlest of things, and never seems to fail to make the environment quite lively. You won't regret having him as part of your team.",
-          author: 'Athenkosi Freddie',
-          image: 'https://i.postimg.cc/YSgSPCg1/IMG-20221004-074457-848.jpg'
+          name: "Konke M.",
+          profession: "Web Developer Intern",
+          description:
+            "Vivamus condimentum sagittis magna non facilisis. Nullam vestibulum odio quis nunc lobortis, id laoreet justo scelerisque. Mauris faucibus ultricies felis vitae sagittis.",
+          image: "https://i.postimg.cc/YCkHtYb1/DSC-3528.jpg"
         },
-        {
-          text: 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.',
-          author: 'Emma Johnson',
-          image: 'https://via.placeholder.com/150'
-        }
       ],
-      animate: false
+      currentTestimonialIndex: 0
+    };
+  },
+  computed: {
+    testimonial() {
+      return this.testimonials[this.currentTestimonialIndex];
     }
   },
   methods: {
-    onIntersect(entries) {
-      entries.forEach(entry => {
-        this.animate = entry.isIntersecting
-      })
+    prevTestimonial() {
+      this.currentTestimonialIndex =
+        (this.currentTestimonialIndex - 1 + this.testimonials.length) %
+        this.testimonials.length;
+    },
+    nextTestimonial() {
+      this.currentTestimonialIndex =
+        (this.currentTestimonialIndex + 1) % this.testimonials.length;
     }
   }
-}
+};
 </script>
-  
+
+
 <style scoped>
-.testimonial-image {
-  opacity: 0;
-  animation: fade-in 0.5s ease-in-out forwards;
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+button,
+input,
+select {
+	font-family: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
-.testimonials {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+html {
+	font-size: 12px;
 }
 
-.testimonial-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+body {
+	color: #000;
+	font-family: "Shippori Antique", sans-serif;
+	height: 100vh;
+	display: grid;
+	place-items: center;
 }
 
-.testimonial {
-  width: calc(33.33% - 10px);
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+.content-wrapper {
+	height: 100%;
+	width: 70%;
+	max-width: 100rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5rem;
 }
 
-.testimonial-image {
-  margin-bottom: 20px;
+h1 {
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	font-size: calc(2.3rem + 1vmin);
 }
 
-.testimonial-image img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.blue-line {
+	height: 0.3rem;
+	width: 6rem;
+	background-color: yellow;
+	margin-bottom: calc(3rem + 2vmin);
+}
+
+.wrapper-for-arrows {
+	position: relative;
+	width: 70%;
+	border-radius: 2rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+}
+
+.review-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: calc(2rem + 1vmin);
+	width: 100%;
+  background-color: grey;
+  margin-left: 0px;
+}
+
+#imgDiv {
   border-radius: 50%;
+  width: calc(6rem + 4vmin);
+  height: calc(6rem + 4vmin);
+  position: relative;
+  box-shadow: 5px -3px yellow;
+  background-size: cover;
+  margin-bottom: calc(0.7rem + 0.5vmin);
+  overflow: hidden;
 }
 
-.testimonial-text {
-  margin-bottom: 10px;
-  color: yellow;
+#imgDiv {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+#imgDiv {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
-.testimonial-author {
-  font-weight: bold;
-  color: yellow;
+#imgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
+
+#imgDiv::after {
+	content: "''";
+	font-size: calc(2rem + 2vmin);
+	font-family: sans-serif;
+	line-height: 150%;
+	color: #fff;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	background-color: yellow;
+	position: absolute;
+	top: 10%;
+	left: -10%;
+	width: calc(2rem + 2vmin);
+	height: calc(2rem + 2vmin);
 }
 
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
+#personName {
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	font-size: calc(1rem + 0.5vmin);
+	letter-spacing: calc(0.1rem + 0.1vmin);
+	font-weight: bold;
 }
 
-@media (max-width: 800px) {
-  .testimonial {
-    width: calc(50% - 10px);
-  }
+#profession {
+	font-size: calc(0.8rem + 0.3vmin);
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	color: yellow;
 }
 
-@media (max-width: 600px) {
-  .testimonial {
-    width: 100%;
-  }
+#description {
+	font-size: calc(0.8rem + 0.3vmin);
+	width: 70%;
+	max-width: 40rem;
+	text-align: center;
+	margin-bottom: calc(1.4rem + 1vmin);
+	color: rgb(92, 92, 92);
+	line-height: 2rem;
+}
+
+.arrow-wrap {
+	position: absolute;
+	top: 50%;
+}
+
+.arrow {
+	width: calc(1.4rem + 0.6vmin);
+	height: calc(1.4rem + 0.6vmin);
+	border: solid yellow;
+	border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.arrow:hover {
+	transition: 0.3s;
+	transform: scale(1.15);
+}
+
+.left-arrow-wrap {
+	left: 5%;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+  box-shadow: 0px 5px 15px yellow;
+}
+
+.right-arrow-wrap {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	right: 5%;
+  box-shadow: 0px 5px 15px yellow;
+}
+
+.move-head {
+	animation: moveHead 1.55s infinite;
+	animation-delay: -0.8s;
+}
+
+@keyframes moveHead {
+	0% {
+	}
+	25% {
+		transform: translate(0.5rem, 1rem) rotate(5deg);
+	}
+	100% {
+		transform: translate(0, 0) rotate(-5deg);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.content-wrapper {
+		width: 100%;
+	}
 }
 </style>
+
+
+
+
+
 
 
   
