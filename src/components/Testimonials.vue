@@ -125,6 +125,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 5rem;
+  margin-left: 230px;
 }
 
 h1 {

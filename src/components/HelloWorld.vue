@@ -3,8 +3,11 @@
     <div class="rectangle-1"></div>
     <div class="rectangle-10"></div>
     <div class="hi-i-am-luntu-sogeyana-a-web-developer">
-      Hi, I am Luntu Sogeyana,<br />a Web Developer!
+      Hi, I am Luntu Sogeyana.
     </div>
+    <p class="Web-dev">
+      I am a Web Developer
+    </p>
     <img class="dsc-3496-removebg-2" src="https://i.postimg.cc/Hxv8CVdV/DSC-3496-removebg.png" />
   </div>
 </template>
@@ -98,13 +101,62 @@ export default {
   font-style: italic;
   font-family: 'Inter';
   font-size: 44px;
-  position: absolute;
+  position: relative;
   left: 620px;
   top: 259px;
   width: 586px;
-  height: 164px;
+  width: max-content;
+}
+.Web-dev{
+  color: yellow;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Inter';
+  font-size: 44px;
+  position: relative;
+  left: 620px;
+  top: 259px;
+  width: 586px;
+  width: max-content;
+}
+.hi-i-am-luntu-sogeyana-a-web-developer::after,
+.hi-i-am-luntu-sogeyana-a-web-developer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
+.hi-i-am-luntu-sogeyana-a-web-developer::before {
+  background-color: rgb(62, 61, 61);
+  animation: typewriter 2s steps(24) forwards, blink;
+}
+
+.hi-i-am-luntu-sogeyana-a-web-developer::after {
+width: 0.125rem;
+background-color: yellow;
+animation: 
+ typewriter 2s steps(24) forwards,
+ blink 500ms steps(24) infinite;
+
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blick {
+  to {
+    background: transparent;
+  }
+  
+}
 .dsc-3496-removebg-2 {
   width: 533px;
   height: 751px;
