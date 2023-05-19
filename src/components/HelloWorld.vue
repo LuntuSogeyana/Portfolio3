@@ -80,18 +80,18 @@ export default {
   left: 915px;
 }
 
-.rectangle-10 {
+/* .rectangle-10 {
   background: rgb(62, 61, 61);
   border-radius: 10px;
   border-style: solid;
   border-color: yellow;
   border-width: 1px;
-  width: 1061px;
+  width: 1300px;
   height: 513px;
   position: absolute;
   left: 159px;
   top: 80px;
-}
+} */
 
 .hi-i-am-luntu-sogeyana-a-web-developer {
   color: yellow;
@@ -151,11 +151,16 @@ animation:
   }
 }
 
-@keyframes blick {
-  to {
-    background: transparent;
+@keyframes blink {
+  0% {
+    visibility: hidden;
   }
-  
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 .dsc-3496-removebg-2 {
   width: 533px;
