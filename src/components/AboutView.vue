@@ -54,6 +54,7 @@ export default {
   outline: 2px solid yellow;
   background-color: rgb(62, 61, 61);
   padding: 20px;
+  margin-top: 50px;
   margin-left: 5vw;
   width: 90vw;
   height: 100vh;

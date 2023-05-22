@@ -89,6 +89,10 @@ export default {
 	box-sizing: border-box;
 }
 
+#testimonials {
+	margin-top: 55px;
+}
+
 button,
 input,
 select {

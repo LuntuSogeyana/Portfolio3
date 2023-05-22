@@ -25,7 +25,7 @@
     <img class="card-image" src="https://i.postimg.cc/t46WSGGT/Screenshot-2022-11-01-090450.png" alt="Card 3" />
     <div class="card-content">
       <h3 class="card-title">E-commerce site</h3>
-      <p class="card-description">An e-commerce site that sells One Piece merchandise.</p>
+      <p class="card-description">One Piece E-commerce</p>
       <a class="card-link" href="https://luntu-ecommerce.netlify.app/" target="_blank">Demo</a>
       <a class="card-link" href="https://github.com/ManakiX/e-commerce.git" target="_blank">GitHub</a>
     </div>
@@ -45,7 +45,7 @@
     <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
     <div class="card-content">
       <h3 class="card-title">Archie-Vable Gaming</h3>
-      <p class="card-description">An e-commerce site for gamers who want quality gaming equipment at achievable prices</p>
+      <p class="card-description">E-commerce site for gamers on a budget</p>
       <a class="card-link" href="https://archie-vable-gaming.web.app/" target="_blank">Demo</a>
       <a class="card-link" href="https://github.com/ManakiX/Archie-VableGaming.git" target="_blank">GitHub</a>
     </div>
@@ -66,6 +66,9 @@
 </template>
 
 <style>
+#projects {
+  margin-top: 50px;
+}
   .card-container {
   display: flex;
   flex-wrap: wrap;

@@ -39,6 +39,10 @@ export default {
 </script>
 
 <style scoped>
+
+#contact {
+  margin-top: 50px;
+}
 .contact {
   max-width: 600px;
   margin: 0 auto;

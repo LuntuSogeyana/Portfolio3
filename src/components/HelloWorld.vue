@@ -106,6 +106,7 @@ export default {
   top: 259px;
   width: 586px;
   width: max-content;
+
 }
 .Web-dev{
   color: yellow;
