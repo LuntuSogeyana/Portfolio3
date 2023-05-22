@@ -1,5 +1,5 @@
 <template>
-  <div class="content-wrapper">
+  <div id="testimonials" class="content-wrapper">
     <h1>Testimonials</h1>
     <div class="blue-line"></div>
     <div class="wrapper-for-arrows">
