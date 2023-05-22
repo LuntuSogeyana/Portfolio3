@@ -132,7 +132,7 @@ export default {
 }
 
 .hi-i-am-luntu-sogeyana-a-web-developer::before {
-  background-color: rgb(62, 61, 61);
+  background-color: black;
   animation: typewriter 2s steps(24) forwards, blink;
 }
 
