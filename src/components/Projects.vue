@@ -6,8 +6,8 @@
     <div class="card-content">
       <h3 class="card-title">Flip-card</h3>
       <p class="card-description">A flip card of Monkey D. Luffy</p>
-      <a class="card-link" href="" target="_blank">Demo</a>
-      <a class="card-link" href="" target="_blank">GitHub</a>
+      <a class="card-link" href="https://silver-eclair-a67fc6.netlify.app/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/flip--card.git" target="_blank">GitHub</a>
      </div>
   </div>
 
