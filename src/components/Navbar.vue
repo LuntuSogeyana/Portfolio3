@@ -10,53 +10,48 @@
     </nav>
   </template>
   
-  <script>
-  export default {
-    name: 'Navbar'
-  }
-  </script>
-  
   <style scoped>
-nav {
-  position: sticky;
-  top: 0;
-  background-color: rgb(62, 61, 61);
-  color: #fff;
-  display: flex;
-  justify-content: end;
-  padding: 1rem;
-  z-index: 1;
-  height: 70px;
-  border-bottom: 2px solid yellow;
-  box-shadow: 0px 5px 15px yellow;
-
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-    color: yellow;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-li {
-  margin-left: 1rem;
-}
-
-a {
-  color: yellow;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-@media (min-width: 768px) {
-  ul {
-    padding: 0 100px;
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(62, 61, 61);
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    z-index: 1;
+    height: 70px;
+    border-bottom: 2px solid yellow;
+    box-shadow: 0px 5px 15px yellow;
   }
-}
 
-  </style>
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: yellow;
+    text-decoration: none;
+    font-family: Arial, sans-serif; 
+    /* font-style: italic; */
+    font-size: 20px;
+  }
+
+  li {
+    margin-left: 1rem;
+  }
+
+  a {
+    color: yellow;
+    text-decoration: none;
+    font-family: Arial, sans-serif; /* Set the desired font family */
+  }
+
+  @media (min-width: 768px) {
+    ul {
+      padding: 0 100px;
+    }
+  }
+</style>
+
   

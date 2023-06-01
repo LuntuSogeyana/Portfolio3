@@ -98,7 +98,7 @@ export default {
   text-align: left;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
   font-family: 'Inter';
   font-size: 44px;
   position: relative;
@@ -113,7 +113,7 @@ export default {
   text-align: left;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
   font-family: 'Inter';
   font-size: 44px;
   position: relative;
