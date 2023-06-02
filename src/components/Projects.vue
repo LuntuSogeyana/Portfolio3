@@ -1,6 +1,7 @@
 <template>
+  <h1>Projects</h1>
 <div id="projects" class="card-container">
-
+  
   <div class="card">
     <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
     <div class="card-content">

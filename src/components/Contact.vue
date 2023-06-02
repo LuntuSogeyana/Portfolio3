@@ -1,4 +1,5 @@
 <template>
+  <h1>Contact</h1>
   <div id="contact" class="contact">
     <h1>Contact Me</h1>
     <form action="https://formspree.io/f/mqkjbnav" method="post" @submit.prevent="submitForm">

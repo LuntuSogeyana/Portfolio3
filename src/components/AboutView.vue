@@ -1,4 +1,5 @@
 <template>
+  <h1>About Me</h1>
   <div id="about" class="about-section">
     <h2 class="section-title">My value as a developer</h2>
     <div class="skills">

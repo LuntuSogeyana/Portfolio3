@@ -219,6 +219,7 @@ h1 {
 	letter-spacing: calc(0.1rem + 0.1vmin);
 	font-weight: bold;
 	color: yellow;
+	font-size: xx-large;
 }
 
 #profession {
@@ -236,6 +237,7 @@ h1 {
 	margin-bottom: calc(1.4rem + 1vmin);
 	color: yellow;
 	line-height: 2rem;
+	font-size: large;
 }
 
 .arrow-wrap {
