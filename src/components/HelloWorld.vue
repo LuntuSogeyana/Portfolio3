@@ -99,7 +99,7 @@ export default {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   /* font-style: italic; */
-  font-family: 'Inter';
+  font-family: Arial, sans-serif; 
   font-size: 44px;
   position: relative;
   left: 620px;
@@ -111,7 +111,7 @@ export default {
 .Web-dev{
   color: yellow;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: Arial, sans-serif; 
   font-weight: bold;
   /* font-style: italic; */
   font-family: 'Inter';
@@ -170,6 +170,7 @@ animation:
   left: 50px;
   top: -81px;
 }
+
 </style>
 
 

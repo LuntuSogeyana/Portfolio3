@@ -6,7 +6,7 @@
         <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="#" target="_blank"><i class="fab fa-github"></i></a>
       </div>
-      <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+      <p>&copy; 2023 Luntu Sogeyana. All Rights Reserved.</p>
     </footer>
   </template>
   

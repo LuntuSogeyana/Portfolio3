@@ -61,6 +61,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Arial, sans-serif; 
   color: yellow;
   box-shadow: 0px 5px 15px yellow;
 }

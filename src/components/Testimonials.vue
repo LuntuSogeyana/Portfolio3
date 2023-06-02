@@ -87,6 +87,7 @@ export default {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Arial, sans-serif; 
 }
 
 #testimonials {
@@ -156,7 +157,7 @@ h1 {
 	align-items: center;
 	padding-top: calc(2rem + 1vmin);
 	width: 100%;
-  background-color: grey;
+  background-color: rgb(62, 61, 61);
   margin-left: 0px;
 }
 
@@ -217,12 +218,14 @@ h1 {
 	font-size: calc(1rem + 0.5vmin);
 	letter-spacing: calc(0.1rem + 0.1vmin);
 	font-weight: bold;
+	color: yellow;
 }
 
 #profession {
 	font-size: calc(0.8rem + 0.3vmin);
 	margin-bottom: calc(0.7rem + 0.5vmin);
 	color: yellow;
+	font-size: x-large;
 }
 
 #description {
@@ -231,7 +234,7 @@ h1 {
 	max-width: 40rem;
 	text-align: center;
 	margin-bottom: calc(1.4rem + 1vmin);
-	color: rgb(92, 92, 92);
+	color: yellow;
 	line-height: 2rem;
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div id="contact" class="contact">
-    <h1>Contact Us</h1>
-    <form @submit.prevent="submitForm">
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/mqkjbnav" method="post" @submit.prevent="submitForm">
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" v-model="name" required>
@@ -39,10 +39,10 @@ export default {
 </script>
 
 <style scoped>
-
 #contact {
   margin-top: 50px;
 }
+
 .contact {
   max-width: 600px;
   margin: 0 auto;
@@ -54,7 +54,6 @@ export default {
   height: 69vh;
   background-color: rgb(62, 61, 61);
   box-shadow: 0px 5px 15px yellow;
-
 }
 
 .form-group {
@@ -97,3 +96,4 @@ button[type="submit"]:hover {
   font-weight: bold;
 }
 </style>
+

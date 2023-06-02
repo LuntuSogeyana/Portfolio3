@@ -81,6 +81,7 @@
   margin-top: 20px;
   margin-left: 70px;
   margin-right: 50px;
+  font-family: Arial, sans-serif; 
   color: black;
   background-color: rgb(62, 61, 61);
   border-radius: 10px;
