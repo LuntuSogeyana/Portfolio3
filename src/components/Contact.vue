@@ -2,18 +2,18 @@
   <h1>Contact</h1>
   <div id="contact" class="contact">
     <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/mqkjbnav" method="post" @submit.prevent="submitForm">
+    <form action="https://formspree.io/f/mqkjbnav" method="POST">
       <div class="form-group">
         <label for="name">Name:</label>
-        <input type="text" id="name" v-model="name" required>
+        <input type="text" id="name" v-model="name" name="name" required>
       </div>
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" id="email" v-model="email" required>
+        <input type="email" id="email" v-model="email" name="email" required>
       </div>
       <div class="form-group">
         <label for="message">Message:</label>
-        <textarea id="message" v-model="message" required></textarea>
+        <textarea id="message" v-model="message" name="message" required></textarea>
       </div>
       <button type="submit">Submit</button>
     </form>
@@ -55,6 +55,10 @@ export default {
   height: 69vh;
   background-color: rgb(62, 61, 61);
   box-shadow: 0px 5px 15px yellow;
+}
+
+button, input, optgroup, select, textarea {
+  background-color: black;
 }
 
 .form-group {
