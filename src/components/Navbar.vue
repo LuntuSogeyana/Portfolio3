@@ -1,5 +1,7 @@
 <template>
     <nav>
+      <div class="Logo" src=""></div>
+    <!-- Got logo from https://dribbble.com/shots/15023511-twitch-L-banner-wo-socmed -->
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
