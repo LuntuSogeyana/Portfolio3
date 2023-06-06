@@ -22,11 +22,13 @@ nav {
   background-color: rgb(62, 61, 61);
   color: #fff;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 1rem;
   z-index: 1;
   height: 70px;
   border-bottom: 2px solid yellow;
+  overflow-x: hidden;
+
   /* box-shadow: 0px 2px 10px yellow; */
 }
 
@@ -67,6 +69,7 @@ a {
     padding: 0 100px;
   }
 }
+
 </style>
 
 

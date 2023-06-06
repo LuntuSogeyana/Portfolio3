@@ -69,14 +69,15 @@
 <style scoped>
 #projects {
   margin-top: 50px;
+  overflow-x: hidden;
+
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: auto;
 }
 
 .card {

@@ -24,16 +24,20 @@ export default {
 .frame-1,
 .frame-1 * {
   box-sizing: border-box;
+  overflow-x: hidden;
+
 }
 
 .frame-1 {
-  background: #ffffff;
+  /* background: #ffffff; */
   width: 100%;
   max-width: 1500px; /* Set the maximum width */
   height: 673px;
   position: relative;
   overflow: hidden;
   margin: 0 auto; /* Center the frame horizontally */
+  overflow-x: hidden;
+
 }
 
 .rectangle-1 {
@@ -46,9 +50,6 @@ export default {
   transform: translateX(-50%); /* Center the rectangle horizontally */
   top: 0px;
 }
-
-/* Rest of the CSS code... */
-
 
 .navigation {
   position: absolute;

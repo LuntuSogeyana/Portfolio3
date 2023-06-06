@@ -140,6 +140,8 @@ export default {
     height: auto;
     min-height: 100vh;
     padding: 20px;
+    overflow-x: hidden;
+
   }
   
   .section-title {

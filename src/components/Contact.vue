@@ -55,6 +55,8 @@ export default {
   height: 69vh;
   background-color: rgb(62, 61, 61);
   box-shadow: 0px 5px 15px yellow;
+  overflow-x: hidden;
+
 }
 
 button, input, optgroup, select, textarea {
