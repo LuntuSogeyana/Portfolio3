@@ -5,7 +5,7 @@
         <div class="footer-col">
           <h3>About Us</h3>
           <ul>
-            <li><a href="#">Company</a></li>
+            <li><a href="#">Life Choices Coding Academy</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Careers</a></li>
           </ul>
@@ -14,8 +14,8 @@
           <h3>Services</h3>
           <ul>
             <li><a href="#">Web Design</a></li>
-            <li><a href="#">Development</a></li>
-            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Full-Stack Development</a></li>
+            <li><a href="#">UI/UX Design</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -30,9 +30,11 @@
       <div class="footer-row">
         <div class="footer-col footer-social">
           <h3>Follow Me</h3>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="footer-row">
@@ -42,6 +44,7 @@
           </p>
         </div>
       </div>
+
     </div>
   </footer>
 </template>
@@ -111,10 +114,12 @@
   margin: 0 5px;
   font-size: 24px;
   opacity: 0.75;
+  color: black;
 }
 
-.footer-clean .footer-social a:hover {
+.footer-social a:hover .fab{
   opacity: 0.9;
+  color: yellow 
 }
 
 .footer-clean .text-center {

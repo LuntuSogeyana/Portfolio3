@@ -66,23 +66,25 @@
 
 </template>
 
-<style>
+<style scoped>
 #projects {
   margin-top: 50px;
 }
-  .card-container {
+
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .card {
-  width: calc(20.33% - 10px);
-  margin-bottom: 0px;
-  margin-top: 20px;
-  margin-left: 70px;
-  margin-right: 50px;
-  font-family: Arial, sans-serif; 
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
   color: black;
   background-color: rgb(62, 61, 61);
   border-radius: 10px;
@@ -135,18 +137,26 @@
   color: yellow;
 }
 
-
 .card-link:nth-of-type(2) {
   background-color: black;
   color: yellow;
 }
 
-
-
-
 .card-link:hover {
   background-color: yellow;
   color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: calc(100% - 20px);
+  }
 }
 
 </style>

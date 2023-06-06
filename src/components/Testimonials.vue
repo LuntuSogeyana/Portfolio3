@@ -292,9 +292,51 @@ h1 {
 @media screen and (max-width: 900px) {
 	.content-wrapper {
 		width: 100%;
+		margin-left: 0;
+		padding: 0 2rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.blue-line {
+		margin-bottom: 2rem;
+	}
+
+	.wrapper-for-arrows {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.arrow-wrap {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.left-arrow-wrap {
+		left: 2%;
+		transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+	}
+
+	.right-arrow-wrap {
+		right: 2%;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+
+	.move-head {
+		display: none;
 	}
 }
+
+
 </style>
+
 
 
 

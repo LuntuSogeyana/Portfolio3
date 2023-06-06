@@ -59,6 +59,7 @@ export default {
 
 button, input, optgroup, select, textarea {
   background-color: black;
+  color: yellow;
 }
 
 .form-group {

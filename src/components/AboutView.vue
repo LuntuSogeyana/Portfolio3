@@ -67,6 +67,7 @@ export default {
   box-shadow: 0px 5px 15px yellow;
 }
 
+
 .section-title {
   font-size: 48px;
   margin-bottom: 30px;
@@ -85,12 +86,39 @@ export default {
   display: flex;
   align-items: center;
   margin: 10px;
+  cursor: pointer;
 }
 
 .skill i {
   font-size: 80px;
   margin-right: 20px;
   color: black;
+}
+
+.skill:hover .fa-html5{
+ color: orange;
+}
+.skill:hover .fa-css3{
+ color: rgb(67, 100, 233);
+}
+.skill:hover .fa-bootstrap{
+ color: rgb(190, 40, 190);
+}
+.skill:hover .fa-js{
+ color: yellow;
+}
+.skill:hover .fa-vuejs{
+ color: green;
+}
+.skill:hover .fa-database{
+ color: lightblue;
+}
+.skill:hover .fa-node-js{
+ color: darkgreen;
+}
+
+.skill:hover .fa-wordpress{
+ color: rgb(109, 109, 210);
 }
 
 .skill span {
@@ -103,5 +131,39 @@ export default {
   line-height: 1.5;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    margin-bottom: 30px;
+  }
+  
+  .skill i {
+    font-size: 60px;
+    margin-right: 10px;
+  }
+  
+  .skill span {
+    font-size: 22px;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+}
+
 </style>
 

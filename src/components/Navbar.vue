@@ -27,7 +27,7 @@ nav {
   z-index: 1;
   height: 70px;
   border-bottom: 2px solid yellow;
-  box-shadow: 0px 5px 15px yellow;
+  /* box-shadow: 0px 2px 10px yellow; */
 }
 
 ul {

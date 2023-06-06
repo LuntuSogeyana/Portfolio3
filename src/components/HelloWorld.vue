@@ -28,20 +28,27 @@ export default {
 
 .frame-1 {
   background: #ffffff;
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px; /* Set the maximum width */
   height: 673px;
   position: relative;
   overflow: hidden;
+  margin: 0 auto; /* Center the frame horizontally */
 }
 
 .rectangle-1 {
   background: black;
-  width: 1520px;
+  width: 100%;
+  max-width: 1520px; /* Set the maximum width */
   height: 673px;
   position: absolute;
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%); /* Center the rectangle horizontally */
   top: 0px;
 }
+
+/* Rest of the CSS code... */
+
 
 .navigation {
   position: absolute;
@@ -80,25 +87,11 @@ export default {
   left: 915px;
 }
 
-/* .rectangle-10 {
-  background: rgb(62, 61, 61);
-  border-radius: 10px;
-  border-style: solid;
-  border-color: yellow;
-  border-width: 1px;
-  width: 1300px;
-  height: 513px;
-  position: absolute;
-  left: 159px;
-  top: 80px;
-} */
-
 .hi-i-am-luntu-sogeyana-a-web-developer {
   color: yellow;
   text-align: left;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  /* font-style: italic; */
   font-family: Arial, sans-serif; 
   font-size: 44px;
   position: relative;
@@ -106,14 +99,13 @@ export default {
   top: 259px;
   width: 586px;
   width: max-content;
-
 }
-.Web-dev{
+
+.Web-dev {
   color: yellow;
   text-align: left;
   font-family: Arial, sans-serif; 
   font-weight: bold;
-  /* font-style: italic; */
   font-family: 'Inter';
   font-size: 44px;
   position: relative;
@@ -122,6 +114,7 @@ export default {
   width: 586px;
   width: max-content;
 }
+
 .hi-i-am-luntu-sogeyana-a-web-developer::after,
 .hi-i-am-luntu-sogeyana-a-web-developer::before {
   content: '';
@@ -138,12 +131,9 @@ export default {
 }
 
 .hi-i-am-luntu-sogeyana-a-web-developer::after {
-width: 0.125rem;
-background-color: yellow;
-animation: 
- typewriter 2s steps(24) forwards,
- blink 500ms steps(24) infinite;
-
+  width: 0.125rem;
+  background-color: yellow;
+  animation: typewriter 2s steps(24) forwards, blink 500ms steps(24) infinite;
 }
 
 @keyframes typewriter {
@@ -163,12 +153,56 @@ animation:
     visibility: visible;
   }
 }
+
 .dsc-3496-removebg-2 {
   width: 533px;
   height: 751px;
   position: absolute;
   left: 50px;
   top: -81px;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+  .frame-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .rectangle-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .about,
+  .projects,
+  .testimonials,
+  .contact-me,
+  .home {
+    font-size: 16px;
+  }
+
+  .hi-i-am-luntu-sogeyana-a-web-developer,
+  .Web-dev {
+    font-size: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    max-width: 586px;
+    margin-top: -14px;
+  }
+
+  .dsc-3496-removebg-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 20px 0;
+  }
 }
 
 </style>
