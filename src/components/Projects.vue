@@ -79,7 +79,6 @@ export default {
   margin-top: 50px;
   overflow-x: hidden;
   overflow-y: hidden;
-
 }
 
 h1 {
@@ -99,10 +98,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px; /* Adjust the maximum width based on your needs */
+  max-width: 1200px;
   margin: 0 auto;
-  padding-left: 80px; /* Add left padding to maintain the original margin */
-  padding-right: 80px; /* Add right padding to maintain the original margin */
+  padding-left: 80px; 
+  padding-right: 80px; 
 }
 
 .card {
@@ -166,7 +165,7 @@ h1 {
   color: black;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 759px) {
   .card {
     width: calc(50% - 20px);
   }

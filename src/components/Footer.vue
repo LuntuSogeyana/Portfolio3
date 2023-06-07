@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-row">
         <div class="footer-col">
-          <h3>About Us</h3>
+          <h3>About Me</h3>
           <ul>
             <li><a href="#">Life Choices Coding Academy</a></li>
             <li><a href="#">Team</a></li>
