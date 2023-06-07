@@ -46,7 +46,7 @@
     <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
     <div class="card-content">
       <h3 class="card-title">Archie-Vable Gaming</h3>
-      <p class="card-description">E-commerce site for gamers on a budget</p>
+      <p class="card-description">An e-commerce site for gamers looking for affordable gaming components</p>
       <a class="card-link" href="https://archie-vable-gaming.web.app/" target="_blank">Demo</a>
       <a class="card-link" href="https://github.com/ManakiX/Archie-VableGaming.git" target="_blank">GitHub</a>
     </div>

@@ -22,9 +22,9 @@
         <div class="footer-col">
           <h3>Contact Details</h3>
           <ul>
-            <li><a><i class="fa fa-envelope" aria-hidden="true"></i>Email:<br>sogeyanaluntu@gmail.com</a></li>
-            <li><a>Phone:<br>+27 67 826 7299</a></li>
-            <li><a>Address:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-phone" aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
+            <li><a><i class="fa fa-home" aria-hidden="true"></i>  Address:<br>sogeyanaluntu@gmail.com</a></li>
           </ul>
         </div>
       </div>
