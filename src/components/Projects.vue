@@ -2,7 +2,7 @@
   <h1>Projects</h1>
   <div class="blue-line"></div>
 <div id="projects" class="card-container"> 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
     <div class="card-content">
       <h3 class="card-title">Flip-card</h3>
@@ -12,7 +12,7 @@
      </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/gcZ67Tnz/Calculator.jpg" alt="Card 1" />
     <div class="card-content">
       <h3 class="card-title">Calculator</h3>
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/t46WSGGT/Screenshot-2022-11-01-090450.png" alt="Card 3" />
     <div class="card-content">
       <h3 class="card-title">E-commerce site</h3>
@@ -32,7 +32,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/bN9Pf3cR/portfolio.png" alt="Card 4" />
     <div class="card-content">
       <h3 class="card-title">Bootstrap Portfolio</h3>
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
     <div class="card-content">
       <h3 class="card-title">Archie-Vable Gaming</h3>
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" data-aos="fade-up" data-aos-duration="3000">
     <img class="card-image" src="https://i.postimg.cc/cLPDJt3L/To-do-list.png" alt="Card 6" />
     <div class="card-content">
       <h3 class="card-title">To-do List</h3>
@@ -66,10 +66,20 @@
 
 </template>
 
+<script>
+export default {
+  mounted() {
+    AOS.init();
+  }
+}
+</script>
+
 <style scoped>
 #projects {
   margin-top: 50px;
   overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 h1 {
@@ -98,7 +108,7 @@ h1 {
 .card {
   width: 300px;
   margin-bottom: 20px;
-  color: black;
+  color: yellow;
   background-color: rgb(62, 61, 61);
   border-radius: 10px;
   box-shadow: 0px 5px 15px yellow;

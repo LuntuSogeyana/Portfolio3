@@ -2,7 +2,7 @@
   <div id="testimonials" class="content-wrapper">
     <h1>Testimonials</h1>
     <div class="blue-line"></div>
-    <div class="wrapper-for-arrows">
+    <div class="wrapper-for-arrows" data-aos="fade-up" data-aos-duration="3000">
       <div class="arrow-wrap left-arrow-wrap" @click="prevTestimonial">
         <div class="arrow"></div>
       </div>
@@ -23,7 +23,11 @@
 
 <script>
 export default {
-  data() {
+  mounted() {
+	AOS.init();
+  },
+	
+	data() {
     return {
       testimonials: [
         {
@@ -94,6 +98,7 @@ export default {
 
 #testimonials {
 	margin-top: 55px;
+	overflow-y: hidden;
 }
 
 button,

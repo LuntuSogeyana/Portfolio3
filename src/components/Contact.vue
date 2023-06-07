@@ -1,7 +1,7 @@
 <template>
   <h1>Contact</h1>
   <div class="blue-line"></div>
-  <div id="contact" class="contact">
+  <div id="contact" class="contact" data-aos="fade-up" data-aos-duration="3000">
     <h1>Contact Me</h1>
     <form action="https://formspree.io/f/mqkjbnav" method="POST">
       <div class="form-group">
@@ -24,6 +24,9 @@
 <script scoped>
 export default {
   name: 'Contact',
+  mounted() {
+    AOS.init();
+  },
   data() {
     return {
       name: '',

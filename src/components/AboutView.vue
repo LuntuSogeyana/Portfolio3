@@ -1,7 +1,7 @@
 <template>
   <h1>About Me</h1>
   <div class="blue-line"></div>
-  <div id="about" class="about-section">
+  <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="3000">
     <h2 class="section-title">My value as a developer</h2>
     <div class="skills">
       <div class="skill">
@@ -43,9 +43,14 @@
 
 <script scoped>
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  mounted() {
+    AOS.init();
+  }
 };
 </script>
+
+
 
 <style>
 @import '~@fortawesome/fontawesome-free/css/all.css';
@@ -111,6 +116,7 @@ h1 {
 .skill:hover .fa-html5{
  color: orange;
 }
+
 .skill:hover .fa-css3{
  color: rgb(67, 100, 233);
 }

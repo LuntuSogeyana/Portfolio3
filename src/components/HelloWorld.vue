@@ -3,7 +3,7 @@
     <div class="rectangle-1"></div>
     <div class="rectangle-10"></div>
     <div class="hi-i-am-luntu-sogeyana-a-web-developer">
-      Hi, I am Luntu Sogeyana.
+      Hi, I am  Luntu Sogeyana.
     </div>
     <p class="Web-dev">
       I am a Web Developer
