@@ -156,6 +156,7 @@ h1 {
   text-align: center;
   line-height: 20px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .card-link:nth-of-type(1),
