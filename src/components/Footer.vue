@@ -30,11 +30,11 @@
       <div class="footer-row">
         <div class="footer-col footer-social">
           <h3>Follow Me</h3>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/luntu-sogeyana-011118270/"><i class="fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/lukhanyiso.nk"><i class="fab fa-facebook"></i></a>
+          <a target="_blank" href="https://twitter.com/L_A_Zanothando"><i class="fab fa-twitter"></i></a>
+          <a target="_blank" href="https://www.instagram.com/lukhanyisonk/?hl=en"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://github.com/ManakiX"><i class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="footer-row">
@@ -50,7 +50,7 @@
 </template>
 
   
-  <script>
+  <script scoped>
   export default {
     name: 'Footer'
   }

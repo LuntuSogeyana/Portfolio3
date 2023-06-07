@@ -39,7 +39,7 @@ ul {
   padding: 0;
   color: yellow;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   font-size: 20px;
 }
 
@@ -50,7 +50,7 @@ li {
 a {
   color: yellow;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
 }
 
 .Logo {

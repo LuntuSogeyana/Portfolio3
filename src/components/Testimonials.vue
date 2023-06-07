@@ -87,7 +87,7 @@ export default {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial, sans-serif; 
+	/* font-family: Arial, sans-serif;  */
 	overflow-x: hidden;
 
 }
@@ -99,7 +99,7 @@ export default {
 button,
 input,
 select {
-	font-family: inherit;
+	/* font-family: inherit; */
 	font-size: 100%;
 	box-sizing: border-box;
 	padding: 0;
@@ -112,7 +112,7 @@ html {
 
 body {
 	color: #000;
-	font-family: "Shippori Antique", sans-serif;
+	/* font-family: "Shippori Antique", sans-serif; */
 	height: 100vh;
 	display: grid;
 	place-items: center;
@@ -201,7 +201,7 @@ h1 {
 #imgDiv::after {
 	content: "''";
 	font-size: calc(2rem + 2vmin);
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
 	line-height: 150%;
 	color: #fff;
 	display: grid;

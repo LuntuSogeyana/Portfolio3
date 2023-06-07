@@ -40,7 +40,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'AboutView'
 };
@@ -62,14 +62,14 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Arial, sans-serif; 
+  /* font-family: Arial, sans-serif;  */
   color: yellow;
   box-shadow: 0px 5px 15px yellow;
 }
 
 
 .section-title {
-  font-size: 48px;
+  font-size: 60px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: bold;
@@ -127,7 +127,7 @@ export default {
 }
 
 .description {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.5;
   text-align: center;
 }

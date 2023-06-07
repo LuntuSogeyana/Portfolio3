@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
 
 .frame-1,
 .frame-1 * {
@@ -29,7 +29,6 @@ export default {
 }
 
 .frame-1 {
-  /* background: #ffffff; */
   width: 100%;
   max-width: 1500px; /* Set the maximum width */
   height: 673px;
@@ -37,7 +36,6 @@ export default {
   overflow: hidden;
   margin: 0 auto; /* Center the frame horizontally */
   overflow-x: hidden;
-
 }
 
 .rectangle-1 {
@@ -91,23 +89,24 @@ export default {
 .hi-i-am-luntu-sogeyana-a-web-developer {
   color: yellow;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-weight: bold;
-  font-family: Arial, sans-serif; 
-  font-size: 44px;
+  /* font-family: Arial, sans-serif;  */
+  font-size: 70px;
   position: relative;
   left: 620px;
   top: 259px;
   width: 586px;
   width: max-content;
+
 }
 
 .Web-dev {
   color: yellow;
   text-align: left;
-  font-family: Arial, sans-serif; 
+  /* font-family: Arial, sans-serif;  */
   font-weight: bold;
-  font-family: 'Inter';
+  /* font-family: 'Inter'; */
   font-size: 44px;
   position: relative;
   left: 620px;

@@ -1,7 +1,7 @@
 <template>
   <h1>Projects</h1>
-<div id="projects" class="card-container">
-  
+  <div class="blue-line"></div>
+<div id="projects" class="card-container"> 
   <div class="card">
     <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
     <div class="card-content">
@@ -70,22 +70,30 @@
 #projects {
   margin-top: 50px;
   overflow-x: hidden;
+}
 
+.blue-line {
+  height: 0.3rem;
+  width: 6rem;
+  background-color: yellow;
+  margin-bottom: calc(3rem + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto;
+  max-width: 1200px; /* Adjust the maximum width based on your needs */
+  margin: 0 auto;
+  padding-left: 80px; /* Add left padding to maintain the original margin */
+  padding-right: 80px; /* Add right padding to maintain the original margin */
 }
 
 .card {
-  width: calc(33.33% - 20px);
+  width: 300px;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: Arial, sans-serif;
   color: black;
   background-color: rgb(62, 61, 61);
   border-radius: 10px;
@@ -133,11 +141,7 @@
   margin-bottom: 10px;
 }
 
-.card-link:nth-of-type(1) {
-  background-color: black;
-  color: yellow;
-}
-
+.card-link:nth-of-type(1),
 .card-link:nth-of-type(2) {
   background-color: black;
   color: yellow;
