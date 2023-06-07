@@ -3,11 +3,12 @@
     <div class="container">
       <div class="footer-row">
         <div class="footer-col">
-          <h3>About Me</h3>
+          <h3>More About Me</h3>
           <ul>
-            <li><a href="#">Life Choices Coding Academy</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Careers</a></li>
+            <li>- Studied Web development at <br><a href="#">Life Choices Coding Academy</a></li>
+            <li>- I like playing online competetive games,<br> chess, and reading books <a href="#"></a></li>
+            <li>- Dogs are superior<a href="#"></a></li>
+            <li>- Just Hire Me</li>
           </ul>
         </div>
         <div class="footer-col">
@@ -21,7 +22,7 @@
         <div class="footer-col">
           <h3>Contact Details</h3>
           <ul>
-            <li><a>Email:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-envelope" aria-hidden="true"></i>Email:<br>sogeyanaluntu@gmail.com</a></li>
             <li><a>Phone:<br>+27 67 826 7299</a></li>
             <li><a>Address:<br>sogeyanaluntu@gmail.com</a></li>
           </ul>

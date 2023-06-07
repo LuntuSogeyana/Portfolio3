@@ -15,6 +15,10 @@
   </nav>
 </template>
 
+<script>
+
+</script>
+
 <style scoped>
 nav {
   position: sticky;
@@ -38,12 +42,16 @@ ul {
   color: yellow;
   text-decoration: none;
   font-size: 20px;
-  flex-wrap: wrap; /* Allow the navigation items to wrap */
-  justify-content: flex-end; /* Adjust alignment for smaller screens */
+  flex-wrap: wrap;
+  justify-content: flex-end; 
 }
 
 li {
   margin-left: 1rem;
+}
+
+li :hover,li:focus {
+  opacity: 50%;
 }
 
 a {
@@ -65,12 +73,10 @@ a {
 @media (min-width: 768px) {
   ul {
     padding: 0 100px;
-    flex-wrap: nowrap; /* Prevent wrapping on larger screens */
-    justify-content: flex-start; /* Adjust alignment for larger screens */
+    flex-wrap: nowrap; 
+    justify-content: flex-start; 
   }
 }
-
-
 </style>
 
 
