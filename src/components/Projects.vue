@@ -137,6 +137,7 @@ h1 {
 .card-description {
   font-size: 16px;
   margin-bottom: 20px;
+  color: black !important;
 }
 
 .card-link {

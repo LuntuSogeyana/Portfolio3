@@ -115,12 +115,12 @@
   margin: 0 5px;
   font-size: 24px;
   opacity: 0.75;
-  color: black;
+  color: yellow;
 }
 
 .footer-social a:hover .fab{
   opacity: 0.9;
-  color: yellow 
+  color: black 
 }
 
 .footer-clean .text-center {
