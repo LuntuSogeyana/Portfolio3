@@ -2,7 +2,7 @@
   <h1>Projects</h1>
   <div class="blue-line"></div>
 <div id="projects" class="card-container"> 
-  <div class="card" data-aos="fade-up" data-aos-duration="3000">
+  <div class="card" data-aos="fade-up" data-aos-duration="1000">
     <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
     <div class="card-content">
       <h3 class="card-title">Flip-card</h3>

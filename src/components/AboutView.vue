@@ -1,7 +1,7 @@
 <template>
   <h1>About Me</h1>
   <div class="blue-line"></div>
-  <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="3000">
+  <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
     <h2 class="section-title">My value as a developer</h2>
     <div class="skills">
       <div class="skill">
