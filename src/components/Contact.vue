@@ -1,5 +1,6 @@
 <template>
   <h1>Contact</h1>
+  <div class="blue-line"></div>
   <div id="contact" class="contact">
     <h1>Contact Me</h1>
     <form action="https://formspree.io/f/mqkjbnav" method="POST">
@@ -44,6 +45,15 @@ export default {
   margin-top: 50px;
 }
 
+.blue-line {
+  height: 0.3rem;
+  width: 6rem;
+  background-color: yellow;
+  margin-bottom: calc(3rem + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contact {
   max-width: 600px;
   margin: 0 auto;
@@ -56,6 +66,7 @@ export default {
   background-color: rgb(62, 61, 61);
   box-shadow: 0px 5px 15px yellow;
   overflow-x: hidden;
+  overflow-y: hidden;
 
 }
 

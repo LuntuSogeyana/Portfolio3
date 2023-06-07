@@ -1,5 +1,6 @@
 <template>
   <h1>About Me</h1>
+  <div class="blue-line"></div>
   <div id="about" class="about-section">
     <h2 class="section-title">My value as a developer</h2>
     <div class="skills">
@@ -67,6 +68,18 @@ export default {
   box-shadow: 0px 5px 15px yellow;
 }
 
+h1 {
+  margin-top: 50px !important;
+}
+
+.blue-line {
+  height: 0.3rem;
+  width: 6rem;
+  background-color: yellow;
+  margin-bottom: calc(3rem + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .section-title {
   font-size: 60px;

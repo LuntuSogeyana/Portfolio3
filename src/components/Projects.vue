@@ -72,6 +72,10 @@
   overflow-x: hidden;
 }
 
+h1 {
+  margin-top: 50px !important;
+}
+
 .blue-line {
   height: 0.3rem;
   width: 6rem;

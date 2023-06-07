@@ -245,6 +245,8 @@ h1 {
 .arrow-wrap {
 	position: absolute;
 	top: 50%;
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 .arrow {
@@ -254,6 +256,7 @@ h1 {
 	border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
 	cursor: pointer;
 	transition: transform 0.3s;
+
 }
 
 .arrow:hover {

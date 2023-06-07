@@ -28,8 +28,6 @@ nav {
   height: 70px;
   border-bottom: 2px solid yellow;
   overflow-x: hidden;
-
-  /* box-shadow: 0px 2px 10px yellow; */
 }
 
 ul {
@@ -39,8 +37,9 @@ ul {
   padding: 0;
   color: yellow;
   text-decoration: none;
-  /* font-family: Arial, sans-serif; */
   font-size: 20px;
+  flex-wrap: wrap; /* Allow the navigation items to wrap */
+  justify-content: flex-end; /* Adjust alignment for smaller screens */
 }
 
 li {
@@ -50,7 +49,6 @@ li {
 a {
   color: yellow;
   text-decoration: none;
-  /* font-family: Arial, sans-serif; */
 }
 
 .Logo {
@@ -59,7 +57,7 @@ a {
   align-items: center;
 }
 
-.Logo img { /* Adjust logo size later */
+.Logo img { 
   width: 90px; 
   height: auto; 
 }
@@ -67,8 +65,11 @@ a {
 @media (min-width: 768px) {
   ul {
     padding: 0 100px;
+    flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+    justify-content: flex-start; /* Adjust alignment for larger screens */
   }
 }
+
 
 </style>
 
