@@ -32,10 +32,12 @@
         <div class="footer-col footer-social">
           <h3>Follow Me</h3>
           <a target="_blank" href="https://www.linkedin.com/in/luntu-sogeyana-011118270/"><i class="fab fa-linkedin"></i></a>
-          <a target="_blank" href="https://www.facebook.com/lukhanyiso.nk"><i class="fab fa-facebook"></i></a>
-          <a target="_blank" href="https://twitter.com/L_A_Zanothando"><i class="fab fa-twitter"></i></a>
-          <a target="_blank" href="https://www.instagram.com/lukhanyisonk/?hl=en"><i class="fab fa-instagram"></i></a>
           <a target="_blank" href="https://github.com/ManakiX"><i class="fab fa-github"></i></a>
+          <a target="_blank" href="https://www.facebook.com/lukhanyiso.nk"><i class="fab fa-facebook"></i></a>
+          <a target="_blank" href="https://www.instagram.com/lukhanyisonk/?hl=en"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://twitter.com/L_A_Zanothando"><i class="fab fa-twitter"></i></a>
+          <a target="_blank" href="https://www.tiktok.com/@manakixiv"><i class="fab fa-tiktok"></i></a>
+
         </div>
       </div>
       <div class="footer-row">
@@ -91,6 +93,15 @@ li {
   font-size: large;
 }
 
+a, i {
+  transition: 0.1s linear;
+}
+
+a:hover i {
+ transform: scale(1.1);
+ /* color: blue; */
+}
+
 .footer-clean ul a:hover {
   opacity: 1;
 }
@@ -122,8 +133,33 @@ li {
   color: yellow;
 }
 
-.footer-clean .footer-social a:hover {
+.footer-clean .footer-social a:nth-child(2):hover {
+  color: rgb(53, 53, 254);
+  background-color: yellow;
+}
+.footer-clean .footer-social a:nth-child(3):hover {
   color: black;
+  background-color: yellow;
+}
+.footer-clean .footer-social a:nth-child(4):hover {
+  color: rgb(69, 69, 252);
+  background-color: yellow;
+
+}
+.footer-clean .footer-social a:nth-child(5):hover {
+  color: rgb(230, 64, 230);
+  background-color: yellow;
+
+}
+.footer-clean .footer-social a:nth-child(6):hover {
+  color: blue;
+  background-color: yellow;
+
+}
+.footer-clean .footer-social a:nth-child(7):hover {
+  color: black;
+  background-color: yellow;
+
 }
 
 .footer-clean .text-center {
