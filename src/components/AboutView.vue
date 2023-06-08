@@ -117,10 +117,10 @@ h1 {
  color: orangered;
 }
 
-.skill:hover .fa-html5{ 
+/* .skill:hover .fa-html5{ 
   animation: shake 150ms infinite;
   animation-timing-function: linear;   
-}
+} */
 
 @keyframes shake {
   0% { transform: rotate(0.5deg); }
