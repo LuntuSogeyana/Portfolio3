@@ -36,8 +36,7 @@ export default {
   },
   methods: {
     submitForm() {
-      // Send form data to server here
-      console.log('Form submitted!');
+     console.log('Form submitted!');
     }
   }
 }
@@ -67,10 +66,14 @@ export default {
   border-radius: 5px;
   height: 69vh;
   background-color: rgb(62, 61, 61);
-  box-shadow: 0px 5px 15px yellow;
+  /* box-shadow: 0px 5px 15px yellow; */
   overflow-x: hidden;
   overflow-y: hidden;
+  transition: 0.01s;
+}
 
+.contact:hover {
+    box-shadow: 0px 5px 15px yellow;
 }
 
 button, input, optgroup, select, textarea {
@@ -94,7 +97,7 @@ textarea {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px yellow;
+  /* box-shadow: 0px 5px 15px yellow; */
   font-size: 16px;
 }
 
@@ -104,7 +107,7 @@ button[type="submit"] {
   padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid yellow;
-  box-shadow: 0px 5px 15px yellow;
+  /* box-shadow: 0px 5px 15px yellow; */
   background-color: black;
   color: yellow;
   font-size: 16px;

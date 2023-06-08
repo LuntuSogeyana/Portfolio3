@@ -19,8 +19,6 @@ export default {
 </script>
 
 <style scoped>
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
-
 .frame-1,
 .frame-1 * {
   box-sizing: border-box;

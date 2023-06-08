@@ -6,7 +6,7 @@
           <h3>More About Me</h3>
           <ul>
             <li>- Studied Web development at <br><a href="#">Life Choices Coding Academy</a></li>
-            <li>- I like playing online competetive games,<br> chess, and reading books <a href="#"></a></li>
+            <li>- I enjoy online competitive games,<br> chess, and reading books <a href="#"></a></li>
             <li>- Dogs are superior<a href="#"></a></li>
             <li>- Just Hire Me</li>
           </ul>
@@ -22,9 +22,9 @@
         <div class="footer-col">
           <h3>Contact Details</h3>
           <ul>
-            <li><a><i class="fa fa-envelope" aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
-            <li><a><i class="fa fa-phone" aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
-            <li><a><i class="fa fa-home" aria-hidden="true"></i>  Address:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-envelope fa-bounce" aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-phone fa-shake" aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
+            <li><a><i class="fa fa-home fa-beat" aria-hidden="true"></i>  Address:<br>sogeyanaluntu@gmail.com</a></li>
           </ul>
         </div>
       </div>
@@ -45,19 +45,17 @@
           </p>
         </div>
       </div>
-
     </div>
   </footer>
 </template>
 
-  
-  <script scoped>
-  export default {
-    name: 'Footer'
-  }
-  </script>
-  
-  <style scoped>
+<script>
+export default {
+  name: 'Footer'
+}
+</script>
+
+<style scoped>
 .footer-clean {
   padding: 50px 0;
   background-color: rgb(62, 61, 61);
@@ -85,6 +83,14 @@
   opacity: 0.8;
 }
 
+h3{
+  font-size: x-large !important;
+}
+
+li {
+  font-size: large;
+}
+
 .footer-clean ul a:hover {
   opacity: 1;
 }
@@ -96,12 +102,10 @@
 }
 
 .footer-clean .footer-col {
-  flex-basis: 25%;
-  text-align: center;
-}
-
-.footer-clean .footer-social {
   flex-basis: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .footer-clean .footer-social a {
@@ -118,9 +122,8 @@
   color: yellow;
 }
 
-.footer-social a:hover .fab{
-  opacity: 0.9;
-  color: black 
+.footer-clean .footer-social a:hover {
+  color: black;
 }
 
 .footer-clean .text-center {

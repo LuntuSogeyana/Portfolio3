@@ -105,16 +105,20 @@ h1 {
 
 .card {
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: yellow;
   background-color: rgb(62, 61, 61);
   border-radius: 10px;
-  box-shadow: 0px 5px 15px yellow;
+  border: 2px solid yellow;
+
+  /* box-shadow: 0px 5px 15px yellow; */
 }
 
 .card:hover {
   transition: 0.2s ease-in;
   transform: scale(1.1);
+    box-shadow: 0px 0px 10px 3px yellow;
+
 }
 
 .card-image {

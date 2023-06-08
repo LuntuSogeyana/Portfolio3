@@ -5,35 +5,35 @@
     <h2 class="section-title">My value as a developer</h2>
     <div class="skills">
       <div class="skill">
-        <i class="fab fa-html5"></i>
+        <i class="fab fa-html5 fa-bounce" style="--fa-animation-delay: 0.1s; --fa-animation-duration:2.3s;"></i>
         <span>HTML5</span>
       </div>
       <div class="skill">
-        <i class="fab fa-css3"></i>
+        <i class="fab fa-css3 fa-bounce" style="--fa-animation-delay: 0.2s; --fa-animation-duration:2.3s;"></i>
         <span>CSS</span>
       </div>
       <div class="skill">
-        <i class="fab fa-bootstrap"></i>
+        <i class="fab fa-bootstrap fa-bounce" style="--fa-animation-delay: 0.3s; --fa-animation-duration:2.3s;"></i>
         <span>Bootstrap</span>
       </div>
       <div class="skill">
-        <i class="fab fa-js"></i>
+        <i class="fab fa-js fa-bounce" style="--fa-animation-delay: 0.4s;--fa-animation-duration:2.3s;"></i>
         <span>JavaScript</span>
       </div>
       <div class="skill">
-        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-vuejs fa-bounce" style="--fa-animation-delay: 0.5s; --fa-animation-duration:2.3s;"></i>
         <span>Vue.js</span>
       </div>
       <div class="skill">
-        <i class="fas fa-database"></i>
+        <i class="fas fa-database fa-bounce" style="--fa-animation-delay: 0.6s; --fa-animation-duration:2.3s;"></i>
         <span>MySQL</span>
       </div>
       <div class="skill">
-        <i class="fab fa-node-js"></i>
+        <i class="fab fa-node-js fa-bounce" style="--fa-animation-delay: 0.7s; --fa-animation-duration:2.3s;"></i>
         <span>Node.js</span>
       </div>
       <div class="skill">
-        <i class="fab fa-wordpress"></i>
+        <i class="fab fa-wordpress fa-bounce" style="--fa-animation-delay: 0.8s;--fa-animation-duration:2.3s;"></i>
         <span>WordPress</span>
       </div>
     </div>
@@ -58,7 +58,7 @@ export default {
 .about-section {
   border: 2px solid yellow;
   border-radius: 15px;
-  outline: 2px solid yellow;
+  /* outline: 2px solid yellow; */
   background-color: rgb(62, 61, 61);
   padding: 20px;
   margin-top: 50px;
@@ -70,7 +70,7 @@ export default {
   justify-content: center;
   /* font-family: Arial, sans-serif;  */
   color: yellow;
-  box-shadow: 0px 5px 15px yellow;
+  /* box-shadow: 0px 5px 15px yellow; */
 }
 
 h1 {
@@ -114,7 +114,18 @@ h1 {
 }
 
 .skill:hover .fa-html5{
- color: orange;
+ color: orangered;
+}
+
+.skill:hover .fa-html5{ 
+  animation: shake 150ms infinite;
+  animation-timing-function: linear;   
+}
+
+@keyframes shake {
+  0% { transform: rotate(0.5deg); }
+  50% { transform: rotate(-0.5deg); }
+  100% { transform: rotate(0.5deg); }
 }
 
 .skill:hover .fa-css3{
@@ -124,7 +135,7 @@ h1 {
  color: rgb(190, 40, 190);
 }
 .skill:hover .fa-js{
- color: yellow;
+ color: orange;
 }
 .skill:hover .fa-vuejs{
  color: green;
@@ -138,6 +149,31 @@ h1 {
 
 .skill:hover .fa-wordpress{
  color: rgb(109, 109, 210);
+}
+
+.skill:nth-child(1):hover span {
+  color: orangered !important;
+}
+.skill:nth-child(2):hover span {
+  color: rgb(67, 100, 233) !important;
+}
+.skill:nth-child(3):hover span {
+  color: rgb(190, 40, 190) !important;
+}
+.skill:nth-child(4):hover span {
+  color: orange !important;
+}
+.skill:nth-child(5):hover span {
+  color: green !important;
+}
+.skill:nth-child(6):hover span {
+  color: lightblue !important;
+}
+.skill:nth-child(7):hover span {
+  color: darkgreen !important;
+}
+.skill:nth-child(8):hover span {
+  color: rgb(109, 109, 210) !important;
 }
 
 .skill span {

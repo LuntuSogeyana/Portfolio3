@@ -39,13 +39,13 @@ export default {
         {
           name: "Sakhe",
           profession: "Web Developer",
-          description:"Luntu is one of the most honest people you can come across. Very wise beyond his years with bright ideas which could shake the world in a very positive way. A man who is not afraid to live and speak his truth.",
+          description:"Luntu stands out as an incredibly honest person, wise beyond his years. His bright ideas have the power to positively shake the world. Fearless in living and speaking his truth, he leaves a lasting impact. Embrace the privilege of encountering such an extraordinary individual.",
           image: "https://i.postimg.cc/Kz8bHftL/Sakhe.jpg"
         },
         {
           name: "Timmothy J.",
           profession: "Web Developer Intern",
-          description:"Luntu is a hard-working guy who can accomplish anything he puts his mind to. He has a very friendly personality which makes it very easy to oproach him. He is very dedicated and committed to any project that he has set for himself.",
+          description:"Luntu exemplifies an indomitable work ethic, capable of achieving any goal he sets his mind to. With an incredibly amiable personality, approaching him is effortless. His unwavering dedication and commitment propel him to excel in every project he undertakes. Witnessing his pursuit of self-imposed challenges is truly inspiring.",
           image: "https://i.postimg.cc/vH76FhmR/C11-1.jpg"
         },
         {
@@ -132,7 +132,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 5rem;
-  margin-left: 230px;
+	margin-left: 230px;
 }
 
 h1 {
@@ -164,8 +164,8 @@ h1 {
 	align-items: center;
 	padding-top: calc(2rem + 1vmin);
 	width: 100%;
-  background-color: rgb(62, 61, 61);
-  margin-left: 0px;
+	background-color: rgb(62, 61, 61);
+	margin-left: 0px;
 }
 
 #imgDiv {
@@ -232,7 +232,7 @@ h1 {
 #profession {
 	font-size: calc(0.8rem + 0.3vmin);
 	margin-bottom: calc(0.7rem + 0.5vmin);
-	color: yellow;
+	color: black;
 	font-size: x-large;
 }
 
@@ -273,14 +273,14 @@ h1 {
 	left: 5%;
 	transform: rotate(135deg);
 	-webkit-transform: rotate(135deg);
-  box-shadow: 0px 5px 15px yellow;
+	box-shadow: 0px 5px 15px yellow;
 }
 
 .right-arrow-wrap {
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	right: 5%;
-  box-shadow: 0px 5px 15px yellow;
+	box-shadow: 0px 5px 15px yellow;
 }
 
 .move-head {
