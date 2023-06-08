@@ -1,3 +1,4 @@
+
 <template>
   <footer class="footer-clean">
     <div class="container">
@@ -37,7 +38,6 @@
           <a target="_blank" href="https://www.instagram.com/lukhanyisonk/?hl=en"><i class="fab fa-instagram"></i></a>
           <a target="_blank" href="https://twitter.com/L_A_Zanothando"><i class="fab fa-twitter"></i></a>
           <a target="_blank" href="https://www.tiktok.com/@manakixiv"><i class="fab fa-tiktok"></i></a>
-
         </div>
       </div>
       <div class="footer-row">
@@ -59,7 +59,8 @@ export default {
 
 <style scoped>
 .footer-clean {
-  padding: 50px 0;
+  padding: 30px 0;
+  padding-bottom: 0%;
   background-color: rgb(62, 61, 61);
   color: yellow;
 }
@@ -101,7 +102,6 @@ a:hover i {
  transform: scale(1.1);
  /* color: blue; */
 }
-
 .footer-clean ul a:hover {
   opacity: 1;
 }
