@@ -3,18 +3,25 @@
     <div class="rectangle-1"></div>
     <div class="rectangle-10"></div>
     <div class="hi-i-am-luntu-sogeyana-a-web-developer">
-      Hi, I am  Luntu Sogeyana.
+      Hi, I am Luntu Sogeyana.
     </div>
     <p class="Web-dev">
       I am a Web Developer
     </p>
     <img class="dsc-3496-removebg-2" src="https://i.postimg.cc/Hxv8CVdV/DSC-3496-removebg.png" />
+    <div class="cv-button-container">
+      <a target="_blank" href="https://drive.google.com/file/d/14jlJyfjEFYz4i6rMegl4EeMurUFmWkPe/view?usp=sharing" class="cv-button" download="Luntu_Sogeyana_CV">Download CV</a>
+    </div>
   </div>
 </template>
-
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  data() {
+    return {
+      downloadURL: 'https://drive.google.com/file/d/14jlJyfjEFYz4i6rMegl4EeMurUFmWkPe/view?usp=share_link'
+    }
+  }
 }
 </script>
 
@@ -23,7 +30,7 @@ export default {
 .frame-1 * {
   box-sizing: border-box;
   overflow-x: hidden;
-
+  position: relative;
 }
 
 .frame-1 {
@@ -134,6 +141,36 @@ export default {
   animation: typewriter 2s steps(24) forwards, blink 500ms steps(24) infinite;
 }
 
+
+
+.cv-button-container {
+  position: absolute;
+  bottom: 20px;
+  left: 47%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 125px;
+  padding-right: 50px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid yellow;
+  background-color: black;
+  color: yellow;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.cv-button:hover {
+  background-color: yellow;
+  color: black;
+}
 @keyframes typewriter {
   to {
     left: 100%;
