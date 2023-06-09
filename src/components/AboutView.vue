@@ -75,6 +75,7 @@ export default {
 
 h1 {
   margin-top: 50px !important;
+  /* color: rgb(62, 61, 61)!important; */
 }
 
 .blue-line {

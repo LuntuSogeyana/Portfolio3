@@ -127,7 +127,7 @@ h1 {
   height: 200px;
   object-fit: cover;
   object-position: center;
-  border-radius: 9px;
+  border-radius: 9px 9px 0px 0px;
 }
 
 .card-content {
