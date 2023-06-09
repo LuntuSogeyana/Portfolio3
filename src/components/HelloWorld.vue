@@ -30,7 +30,7 @@ export default {
 .frame-1 * {
   box-sizing: border-box;
   overflow-x: hidden;
-  position: relative;
+  /* position: relative; */
 }
 
 .frame-1 {

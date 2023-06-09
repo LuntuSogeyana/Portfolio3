@@ -105,6 +105,7 @@ h1 {
 
 .card {
   width: 300px;
+  margin-top: 28px;
   margin-bottom: 40px;
   color: yellow;
   background-color: rgb(62, 61, 61);
@@ -126,6 +127,7 @@ h1 {
   height: 200px;
   object-fit: cover;
   object-position: center;
+  border-radius: 9px;
 }
 
 .card-content {
