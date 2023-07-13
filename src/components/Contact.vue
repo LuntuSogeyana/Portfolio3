@@ -1,5 +1,5 @@
 <template>
-  <h1>Contact</h1>
+  <h1 class="con-head">Contact</h1>
   <div class="blue-line"></div>
   <div id="contact" class="contact" data-aos="fade-up" data-aos-duration="1000">
     <h1>Contact Me</h1>
@@ -61,7 +61,7 @@ export default {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 20px;
-  color: yellow;
+  color: white;
   border: 2px solid yellow;
   border-radius: 5px;
   height: 69vh;
@@ -70,6 +70,13 @@ export default {
   overflow-x: hidden;
   overflow-y: hidden;
   transition: 0.01s;
+}
+
+.con-head {
+  color: white;
+}
+h1 {
+  color: yellow;
 }
 
 .contact:hover {

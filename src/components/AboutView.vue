@@ -2,63 +2,68 @@
   <h1>About Me</h1>
   <div class="blue-line"></div>
   <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
-    <h2 class="section-title">My value as a developer</h2>
+    <h2 class="section-title">My skills and value as a developer</h2>
     <div class="skills">
       <div class="skill">
         <i class="fab fa-html5 fa-bounce" style="--fa-animation-delay: 0.1s; --fa-animation-duration:2.3s;"></i>
         <span>HTML5</span>
+        <div class="hidden">Started learning HTML5 on September 2022</div>
       </div>
       <div class="skill">
-        <i class="fab fa-css3 fa-bounce" style="--fa-animation-delay: 0.2s; --fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-css3 fa-bounce" style="--fa-animation-delay: 0.3s; --fa-animation-duration:2.3s;"></i>
         <span>CSS</span>
+        <div class="hidden">Proficient in CSS styling</div>
       </div>
       <div class="skill">
-        <i class="fab fa-bootstrap fa-bounce" style="--fa-animation-delay: 0.3s; --fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-bootstrap fa-bounce" style="--fa-animation-delay: 0.5s; --fa-animation-duration:2.3s;"></i>
         <span>Bootstrap</span>
+        <div class="hidden">Experience with Bootstrap framework</div>
       </div>
       <div class="skill">
-        <i class="fab fa-js fa-bounce" style="--fa-animation-delay: 0.4s;--fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-js fa-bounce" style="--fa-animation-delay: 0.7s; --fa-animation-duration:2.3s;"></i>
         <span>JavaScript</span>
+        <div class="hidden">Skilled in JavaScript programming</div>
       </div>
       <div class="skill">
-        <i class="fab fa-vuejs fa-bounce" style="--fa-animation-delay: 0.5s; --fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-vuejs fa-bounce" style="--fa-animation-delay: 0.9s; --fa-animation-duration:2.3s;"></i>
         <span>Vue.js</span>
+        <div class="hidden">Experience with Vue.js framework</div>
       </div>
       <div class="skill">
-        <i class="fas fa-database fa-bounce" style="--fa-animation-delay: 0.6s; --fa-animation-duration:2.3s;"></i>
+        <i class="fas fa-database fa-bounce" style="--fa-animation-delay: 1.1s; --fa-animation-duration:2.3s;"></i>
         <span>MySQL</span>
+        <div class="hidden">Proficient in MySQL database</div>
       </div>
       <div class="skill">
-        <i class="fab fa-node-js fa-bounce" style="--fa-animation-delay: 0.7s; --fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-node-js fa-bounce" style="--fa-animation-delay: 1.3s; --fa-animation-duration:2.3s;"></i>
         <span>Node.js</span>
+        <div class="hidden">Experience with Node.js backend development</div>
       </div>
       <div class="skill">
-        <i class="fab fa-wordpress fa-bounce" style="--fa-animation-delay: 0.8s;--fa-animation-duration:2.3s;"></i>
+        <i class="fab fa-wordpress fa-bounce" style="--fa-animation-delay: 1.5s; --fa-animation-duration:2.3s;"></i>
         <span>WordPress</span>
+        <div class="hidden">Skilled in WordPress development</div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-php fa-bounce" style="--fa-animation-delay: 1.7s; --fa-animation-duration:2.3s;"></i>
+        <span>PHP</span>
+        <div class="hidden">Experience with PHP programming</div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python fa-bounce" style="--fa-animation-delay: 1.9s; --fa-animation-duration:2.3s;"></i>
+        <span>Python</span>
+        <div class="hidden">currently learnig Python programming</div>
       </div>
     </div>
-    <p class="description">As a highly skilled web developer, my value lies in my extensive experience, versatility, and dedication to continuous learning. My ability to work efficiently, meet deadlines, and maintain high-quality work allows me to create unique and efficient websites that meet the needs of various customer tastes. By keeping up with the latest web trends and development techniques, I can provide cutting-edge solutions that help differentiate my clients from their competitors and attract new customers, ultimately driving business growth.</p>
+    <p class="description">As a skilled web developer, my value lies in my experience, versatility, and dedication to continuous learning. My ability to work efficiently, meet deadlines, and maintain quality work allows me to create unique, simple, and efficient websites that meet the needs of various user tastes. By keeping up with the latest web trends and development techniques, I provide unique solutions that help differentiate my work from the competition.</p>
   </div>
 </template>
-
-<script scoped>
-export default {
-  name: 'AboutView',
-  mounted() {
-    AOS.init();
-  }
-};
-</script>
-
-
 
 <style>
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 .about-section {
-  border: 2px solid yellow;
   border-radius: 15px;
-  /* outline: 2px solid yellow; */
   background-color: rgb(62, 61, 61);
   padding: 20px;
   margin-top: 50px;
@@ -68,14 +73,12 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* font-family: Arial, sans-serif;  */
   color: yellow;
-  /* box-shadow: 0px 5px 15px yellow; */
 }
 
 h1 {
   margin-top: 50px !important;
-  /* color: rgb(62, 61, 61)!important; */
+  color: white;
 }
 
 .blue-line {
@@ -91,7 +94,7 @@ h1 {
   font-size: 60px;
   margin-bottom: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .skills {
@@ -106,75 +109,54 @@ h1 {
   align-items: center;
   margin: 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .skill i {
   font-size: 80px;
   margin-right: 20px;
   color: black;
+  opacity: 60%;
 }
 
-.skill:hover .fa-html5{
- color: orangered;
+.skill:hover .fa-html5 {
+  color: orangered;
 }
 
-/* .skill:hover .fa-html5{ 
-  animation: shake 150ms infinite;
-  animation-timing-function: linear;   
-} */
-
-@keyframes shake {
-  0% { transform: rotate(0.5deg); }
-  50% { transform: rotate(-0.5deg); }
-  100% { transform: rotate(0.5deg); }
+.skill:hover .fa-css3 {
+  color: rgb(67, 100, 233);
 }
 
-.skill:hover .fa-css3{
- color: rgb(67, 100, 233);
-}
-.skill:hover .fa-bootstrap{
- color: rgb(190, 40, 190);
-}
-.skill:hover .fa-js{
- color: orange;
-}
-.skill:hover .fa-vuejs{
- color: green;
-}
-.skill:hover .fa-database{
- color: lightblue;
-}
-.skill:hover .fa-node-js{
- color: darkgreen;
+.skill:hover .fa-bootstrap {
+  color: rgb(190, 40, 190);
 }
 
-.skill:hover .fa-wordpress{
- color: rgb(109, 109, 210);
+.skill:hover .fa-js {
+  color: orange;
 }
 
-.skill:nth-child(1):hover span {
-  color: orangered !important;
+.skill:hover .fa-vuejs {
+  color: green;
 }
-.skill:nth-child(2):hover span {
-  color: rgb(67, 100, 233) !important;
+
+.skill:hover .fa-database {
+  color: lightblue;
 }
-.skill:nth-child(3):hover span {
-  color: rgb(190, 40, 190) !important;
+
+.skill:hover .fa-node-js {
+  color: darkgreen;
 }
-.skill:nth-child(4):hover span {
-  color: orange !important;
+
+.skill:hover .fa-wordpress {
+  color: rgb(109, 109, 210);
 }
-.skill:nth-child(5):hover span {
-  color: green !important;
+
+.skill:hover .fa-php {
+  color: rgb(75, 138, 202);
 }
-.skill:nth-child(6):hover span {
-  color: lightblue !important;
-}
-.skill:nth-child(7):hover span {
-  color: darkgreen !important;
-}
-.skill:nth-child(8):hover span {
-  color: rgb(109, 109, 210) !important;
+
+.skill:hover .fa-python {
+  color: purple;
 }
 
 .skill span {
@@ -184,8 +166,46 @@ h1 {
 
 .description {
   font-size: 30px;
+  font-weight: 600;
   line-height: 1.5;
   text-align: center;
+  color: white;
+}
+
+.hidden {
+  display: none;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(50,50, 50);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px black;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hidden::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: white transparent transparent transparent;
+}
+
+.skill:hover .hidden {
+  display: block;
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
@@ -197,31 +217,31 @@ h1 {
     min-height: 100vh;
     padding: 20px;
     overflow-x: hidden;
-
   }
-  
+
   .section-title {
     font-size: 36px;
     margin-bottom: 20px;
   }
-  
+
   .skills {
     margin-bottom: 30px;
   }
-  
+
   .skill i {
     font-size: 60px;
     margin-right: 10px;
   }
-  
+
   .skill span {
     font-size: 22px;
   }
-  
+
   .description {
     font-size: 20px;
   }
 }
-
 </style>
+
+
 

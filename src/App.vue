@@ -20,11 +20,11 @@
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;700&display=swap');
-#app {
-  font-family: 'Boogaloo', cursive;
-  /* font-family: 'poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');#app {
+  font-family: 'Montserrat', sans-serif;  /* font-family: 'poppins', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

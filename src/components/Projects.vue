@@ -46,7 +46,7 @@
     <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
     <div class="card-content">
       <h3 class="card-title">Archie-Vable Gaming</h3>
-      <p class="card-description">An e-commerce site for gamers looking for affordable gaming components</p>
+      <p class="card-description">An e-commerce site for gamers looking for gaming components</p>
       <a class="card-link" href="https://archie-vable-gaming.web.app/" target="_blank">Demo</a>
       <a class="card-link" href="https://github.com/ManakiX/Archie-VableGaming.git" target="_blank">GitHub</a>
     </div>
@@ -62,6 +62,36 @@
   </div>
 </div>
 
+<div class="card" data-aos="fade-up" data-aos-duration="1000">
+    <img class="card-image" src="https://i.postimg.cc/1tJxGH8J/One-Piece-Merch.png" alt="Card 8" />
+    <div class="card-content">
+      <h3 class="card-title">One Piece Merch</h3>
+      <p class="card-description">My very first One Piece wordpress e-commerce site</p>
+      <a class="card-link" href="https://dev-onepiecemerch.pantheonsite.io/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/luntuchecklist.git" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<div class="card" data-aos="fade-up" data-aos-duration="1000">
+    <img class="card-image" src="https://i.postimg.cc/nL71JPHP/Katana-Kingdom.png" alt="Card 7" />
+    <div class="card-content">
+      <h3 class="card-title">Wordpress</h3>
+      <p class="card-description">A wordpress project I worked on with my fellow colleagues</p>
+      <a class="card-link" href="https://dev-katana-kingdom.pantheonsite.io/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/luntuchecklist.git" target="_blank">GitHub</a>
+  </div>
+</div>
+
+
+<div class="card" data-aos="fade-up" data-aos-duration="1000">
+    <img class="card-image" src="https://i.postimg.cc/LsrF4TJW/5578703.png" alt="Card 9" />
+    <div class="card-content">
+      <h3 class="card-title">Project in progress</h3>
+      <p class="card-description">There's a project currently in progress. Please wait.</p>
+      <a class="card-link" href="">nothing</a>
+      <a class="card-link" href="">yet</a>
+  </div>
+</div>
 </div>
 
 </template>
@@ -82,6 +112,7 @@ export default {
 
 h1 {
   margin-top: 50px !important;
+  color: white;
 }
 
 .blue-line {
@@ -143,7 +174,7 @@ h1 {
 .card-description {
   font-size: 16px;
   margin-bottom: 20px;
-  color: black !important;
+  color: white !important;
 }
 
 .card-link {

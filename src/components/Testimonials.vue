@@ -85,7 +85,7 @@ export default {
 
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;700&display=swap');
 
 * {
 	margin: 0;
@@ -99,6 +99,7 @@ export default {
 #testimonials {
 	margin-top: 55px;
 	overflow-y: hidden;
+	overflow: hidden;
 }
 
 button,
@@ -138,6 +139,8 @@ body {
 h1 {
 	margin-bottom: calc(0.7rem + 0.5vmin);
 	font-size: calc(2.3rem + 1vmin);
+	overflow: hidden;
+	color: white;
 }
 
 .blue-line {
@@ -232,7 +235,7 @@ h1 {
 #profession {
 	font-size: calc(0.8rem + 0.3vmin);
 	margin-bottom: calc(0.7rem + 0.5vmin);
-	color: black;
+	color: yellow;
 	font-size: x-large;
 }
 
@@ -242,7 +245,7 @@ h1 {
 	max-width: 40rem;
 	text-align: center;
 	margin-bottom: calc(1.4rem + 1vmin);
-	color: yellow;
+	color: white;
 	line-height: 2rem;
 	font-size: large;
 }

@@ -23,9 +23,9 @@
         <div class="footer-col">
           <h3>Contact Details</h3>
           <ul>
-            <li><a><i class="fa fa-envelope fa-bounce" aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
-            <li><a><i class="fa fa-phone fa-shake" aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
-            <li><a><i class="fa fa-home fa-beat" aria-hidden="true"></i>  Address:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-envelope " aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
+            <li><a><i class="fa fa-phone " aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
+            <li><a><i class="fa fa-home" aria-hidden="true"></i>  Address:<br>34 Alouette Cres Street, Delft</a></li>
           </ul>
         </div>
       </div>
@@ -35,9 +35,6 @@
           <a target="_blank" href="https://www.linkedin.com/in/luntu-sogeyana-011118270/"><i class="fab fa-linkedin"></i></a>
           <a target="_blank" href="https://github.com/ManakiX"><i class="fab fa-github"></i></a>
           <a target="_blank" href="https://www.facebook.com/lukhanyiso.nk"><i class="fab fa-facebook"></i></a>
-          <a target="_blank" href="https://www.instagram.com/lukhanyisonk/?hl=en"><i class="fab fa-instagram"></i></a>
-          <a target="_blank" href="https://twitter.com/L_A_Zanothando"><i class="fab fa-twitter"></i></a>
-          <a target="_blank" href="https://www.tiktok.com/@manakixiv"><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
       <div class="footer-row">
@@ -58,12 +55,20 @@ export default {
 </script>
 
 <style scoped>
+
+li {
+  color: white;
+}
 .footer-clean {
   padding: 30px 0;
   padding-bottom: 0%;
   background-color: rgb(62, 61, 61);
   color: yellow;
 }
+
+/* .footer-row {
+  color: white !important;
+} */
 
 .footer-clean h3 {
   margin-top: 0;
@@ -144,7 +149,6 @@ a:hover i {
 .footer-clean .footer-social a:nth-child(4):hover {
   color: rgb(69, 69, 252);
   background-color: yellow;
-
 }
 .footer-clean .footer-social a:nth-child(5):hover {
   color: rgb(230, 64, 230);

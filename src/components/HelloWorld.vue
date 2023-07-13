@@ -107,7 +107,7 @@ export default {
 }
 
 .Web-dev {
-  color: yellow;
+  color: white;
   text-align: left;
   /* font-family: Arial, sans-serif;  */
   font-weight: bold;
@@ -151,7 +151,7 @@ export default {
   text-align: center;
   width: 100%;
   margin-bottom: 125px;
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 .cv-button {
@@ -164,7 +164,6 @@ export default {
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
-
 }
 
 .cv-button:hover {
