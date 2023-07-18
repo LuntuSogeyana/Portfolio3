@@ -19,7 +19,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      downloadURL: 'https://drive.google.com/file/d/14jlJyfjEFYz4i6rMegl4EeMurUFmWkPe/view?usp=share_link'
+      downloadURL: 'https://drive.google.com/file/d/14jlJyfjEFYz4i6rMegl4EeMurUFmWkPe/view?usp=sharing'
     }
   }
 }

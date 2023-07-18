@@ -88,8 +88,8 @@
     <div class="card-content">
       <h3 class="card-title">Project in progress</h3>
       <p class="card-description">There's a project currently in progress. Please wait.</p>
-      <a class="card-link" href="">nothing</a>
-      <a class="card-link" href="">yet</a>
+      <a class="card-link" href="...">nothing</a>
+      <a class="card-link" href="...">yet</a>
   </div>
 </div>
 </div>
