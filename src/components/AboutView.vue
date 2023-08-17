@@ -52,7 +52,7 @@
       <div class="skill">
         <i class="fab fa-python fa-bounce" style="--fa-animation-delay: 1.9s; --fa-animation-duration:2.3s;"></i>
         <span>Python</span>
-        <div class="hidden">currently learnig Python programming</div>
+        <div class="hidden">Learned Python</div>
       </div>
     </div>
     <p class="description">As a skilled web developer, my value lies in my experience, versatility, and dedication to continuous learning. My ability to work efficiently, meet deadlines, and maintain quality work allows me to create unique, simple, and efficient websites that meet the needs of various user tastes. By keeping up with the latest web trends and development techniques, I provide unique solutions that help differentiate my work from the competition.</p>

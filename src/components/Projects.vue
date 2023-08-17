@@ -82,6 +82,15 @@
   </div>
 </div>
 
+<div class="card" data-aos="fade-up" data-aos-duration="1000">
+    <img class="card-image" src="https://i.postimg.cc/zBCQ0psz/Rock-Paper-Scissors-Logo.png" alt="Card 7" />
+    <div class="card-content">
+      <h3 class="card-title">RPS Game</h3>
+      <p class="card-description">A Rock, Papers, Scissors game I developed using python code</p>
+      <a class="card-link" href="http://luntu.pythonanywhere.com/" target="_blank">Demo</a>
+      <a class="card-link" href="https://github.com/ManakiX/newrpsgame.git" target="_blank">GitHub</a>
+  </div>
+</div>
 
 <div class="card" data-aos="fade-up" data-aos-duration="1000">
     <img class="card-image" src="https://i.postimg.cc/LsrF4TJW/5578703.png" alt="Card 9" />
@@ -209,7 +218,7 @@ h1 {
 
 @media screen and (max-width: 759px) {
   .card {
-    width: calc(50% - 20px);
+    width: calc(100% - 20px);
   }
 }
 
