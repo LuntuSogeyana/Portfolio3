@@ -32,7 +32,9 @@ export default {
   overflow-x: hidden;
   /* position: relative; */
 }
-
+/* body {
+  cursor: none !important;
+} */
 .frame-1 {
   width: 100%;
   max-width: 1500px; /* Set the maximum width */
@@ -164,6 +166,7 @@ export default {
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
+  cursor: none !important;
 }
 
 .cv-button:hover {

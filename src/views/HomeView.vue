@@ -1,4 +1,5 @@
 <template>
+      <CustomCursor/>
       <HelloWorld/>
       <AboutView/>
       <Projects/>
@@ -12,6 +13,7 @@ import AboutView from '@/components/AboutView.vue'
 import Projects from '@/components/Projects.vue'
 import Testimonials from '@/components/Testimonials.vue'
 import Contact from '@/components/Contact.vue'
+// import CustomCursor from '@/components/CustomCursor.vue'
 
 export default {
   name: 'HomeView',
@@ -20,13 +22,18 @@ export default {
     AboutView,
     Projects,
     Testimonials,
-    Contact
-  }
+    Contact,
+    // CustomCursor
+}
 }
 </script>
 
 <style>
 body {
   background-color: black;
+}
+
+button {
+  cursor: none !important;
 }
 </style>
