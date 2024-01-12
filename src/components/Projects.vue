@@ -43,7 +43,7 @@
   </div>
 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/bvdB7nFH/Archie-Vable-Gaming.png" alt="Card 5" />
+    <img class="card-image" src="../assets/ArchievableGaming.gif" alt="Card 5" />
     <div class="card-content">
       <h3 class="card-title">Archie-Vable Gaming</h3>
       <p class="card-description">An e-commerce site for gamers looking for gaming components</p>
@@ -53,7 +53,7 @@
   </div>
 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/cLPDJt3L/To-do-list.png" alt="Card 6" />
+    <img class="card-image" src="../assets/checklist-to-do.gif" alt="Card 6" />
     <div class="card-content">
       <h3 class="card-title">To-do List</h3>
       <p class="card-description">Created a checklist to help me remember my tasks</p>
