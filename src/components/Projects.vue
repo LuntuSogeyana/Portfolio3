@@ -23,7 +23,7 @@
   </div>
 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/t46WSGGT/Screenshot-2022-11-01-090450.png" alt="Card 3" />
+    <img class="card-image" src="../assets/One-Piece-Store.png" alt="Card 3" />
     <div class="card-content">
       <h3 class="card-title">E-commerce site</h3>
       <p class="card-description">One Piece E-commerce</p>

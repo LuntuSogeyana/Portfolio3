@@ -23,7 +23,6 @@ export default {
     Projects,
     Testimonials,
     Contact,
-    // CustomCursor
 }
 }
 </script>

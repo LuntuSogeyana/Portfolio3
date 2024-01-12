@@ -25,7 +25,7 @@
           <ul>
             <li><a><i class="fa fa-envelope " aria-hidden="true"></i>  Email:<br>sogeyanaluntu@gmail.com</a></li>
             <li><a><i class="fa fa-phone " aria-hidden="true"></i>  Phone:<br>+27 67 826 7299</a></li>
-            <li><a><i class="fa fa-home" aria-hidden="true"></i>  Address:<br>34 Alouette Cres Street, Delft</a></li>
+            <li><a><i class="fa fa-home" aria-hidden="true"></i>  Home area:<br>Delft South, The Hague</a></li>
           </ul>
         </div>
       </div>
