@@ -73,7 +73,7 @@
 </div>
 
 <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/nL71JPHP/Katana-Kingdom.png" alt="Card 7" />
+    <img class="card-image" src="../assets/Katana-kingdom.png" alt="Card 7" />
     <div class="card-content">
       <h3 class="card-title">Wordpress</h3>
       <p class="card-description">A wordpress project I worked on with my fellow colleagues</p>
