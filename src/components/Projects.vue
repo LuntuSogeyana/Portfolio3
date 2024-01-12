@@ -3,7 +3,7 @@
   <div class="blue-line"></div>
 <div id="projects" class="card-container"> 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/YqFYCBDH/Luffy-Flip-card-final.png" alt="Card 2" />
+    <img class="card-image" src="../assets/Flip.png" alt="Card 2" />
     <div class="card-content">
       <h3 class="card-title">Flip-card</h3>
       <p class="card-description">A flip card of Monkey D. Luffy</p>
