@@ -83,7 +83,7 @@
 </div>
 
 <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/zBCQ0psz/Rock-Paper-Scissors-Logo.png" alt="Card 7" />
+    <img class="card-image" src="../assets/RPS.jpg" alt="Card 7" />
     <div class="card-content">
       <h3 class="card-title">RPS Game</h3>
       <p class="card-description">A Rock, Papers, Scissors game I developed using python code</p>
@@ -93,7 +93,7 @@
 </div>
 
 <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/LsrF4TJW/5578703.png" alt="Card 9" />
+    <img class="card-image" src="../assets/NewProjectGif.gif" alt="Card 9" />
     <div class="card-content">
       <h3 class="card-title">Project in progress</h3>
       <p class="card-description">There's a project currently in progress. Please wait.</p>
