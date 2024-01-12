@@ -63,7 +63,7 @@
 </div>
 
 <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/1tJxGH8J/One-Piece-Merch.png" alt="Card 8" />
+    <img class="card-image" src="../assets/One_Piece_Merch.png" alt="Card 8" />
     <div class="card-content">
       <h3 class="card-title">One Piece Merch</h3>
       <p class="card-description">My very first One Piece wordpress e-commerce site</p>
