@@ -13,7 +13,7 @@
   </div>
 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/gcZ67Tnz/Calculator.jpg" alt="Card 1" />
+    <img class="card-image" src="../assets/Animated-Calculator.png" alt="Card 1" />
     <div class="card-content">
       <h3 class="card-title">Calculator</h3>
       <p class="card-description">A simple calculator .</p>
