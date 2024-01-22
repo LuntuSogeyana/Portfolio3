@@ -8,7 +8,7 @@
     <p class="Web-dev">
       I am a Web Developer
     </p>
-    <img class="dsc-3496-removebg-2" src="https://i.postimg.cc/Hxv8CVdV/DSC-3496-removebg.png" />
+    <img class="dsc-3496-removebg-2" src="../assets/ImageForPortfoliojpg-removebg-preview.png" />
     <div class="cv-button-container">
       <a target="_blank" href="https://drive.google.com/file/d/14jlJyfjEFYz4i6rMegl4EeMurUFmWkPe/view?usp=sharing" class="cv-button" download="Luntu_Sogeyana_CV">Download CV</a>
     </div>

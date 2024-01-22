@@ -33,7 +33,7 @@
   </div>
 
   <div class="card" data-aos="fade-up" data-aos-duration="1000">
-    <img class="card-image" src="https://i.postimg.cc/bN9Pf3cR/portfolio.png" alt="Card 4" />
+    <img class="card-image" src="../assets/manhunt.gif" alt="Card 4" />
     <div class="card-content">
       <h3 class="card-title">Bootstrap Portfolio</h3>
       <p class="card-description">My very first portfolio create using html, css, and boostrap</p>
