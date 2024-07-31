@@ -141,7 +141,6 @@ h1 {
 .skill:hover .fa-js {
   color: orange;
 } 
-/* checking */
 
 .skill:hover .fa-vuejs {
   color: green;
