@@ -2,7 +2,7 @@
   <nav>
     <div class="Logo">
       <a href="#">
-        <img src="../assets/Temporary__logo-removebg-preview.png" style="height: 70px; width: auto;" alt="Logo">
+        <img src="../assets/MediamodifierDesign.svg" style="height: 70px; width: auto;" alt="Logo">
       </a>
     </div>
     <input type="checkbox" id="menu-toggle" class="menu-toggle-input">

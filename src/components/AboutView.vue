@@ -54,6 +54,11 @@
         <span>Python</span>
         <div class="hidden">Learned Python</div>
       </div>
+      <div class="skill">
+        <i class="fab fa-react fa-bounce" style="--fa-animation-delay: 2.2s; --fa-animation-duration:2.3s;"></i>
+        <span>React</span>
+        <div class="hidden">Learned React</div>
+      </div>
     </div>
     <p class="description">As a skilled web developer, my value lies in my experience, versatility, and dedication to continuous learning. My ability to work efficiently, meet deadlines, and maintain quality work allows me to create unique, simple, and efficient websites that meet the needs of various user tastes. By keeping up with the latest web trends and development techniques, I provide unique solutions that help differentiate my work from the competition.</p>
   </div>
@@ -110,6 +115,8 @@ h1 {
   margin: 10px;
   cursor: pointer;
   position: relative;
+  flex: 1 1 150px; /* Allows items to grow and shrink */
+  max-width: 200px; /* Maximum width of each skill item */
 }
 
 .skill i {
@@ -170,6 +177,7 @@ h1 {
   line-height: 1.5;
   text-align: center;
   color: white;
+  margin: 0 20px; /* Add some side margins for better spacing */
 }
 
 .hidden {
@@ -200,7 +208,7 @@ h1 {
   transform: translateX(-50%);
   border-style: solid;
   border-width: 10px 10px 0 10px;
-  border-color: white transparent transparent transparent;
+  border-color: rgb(50, 50, 50) transparent transparent transparent;
 }
 
 .skill:hover .hidden {
@@ -208,19 +216,19 @@ h1 {
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .about-section {
+    padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
     height: auto;
     min-height: 100vh;
-    padding: 20px;
     overflow-x: hidden;
   }
 
   .section-title {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
   }
 
@@ -229,18 +237,53 @@ h1 {
   }
 
   .skill i {
+    font-size: 70px;
+    margin-right: 15px;
+  }
+
+  .skill span {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .skills {
+    margin-bottom: 20px;
+  }
+
+  .skill i {
     font-size: 60px;
     margin-right: 10px;
   }
 
   .skill span {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .description {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
+
 </style>
 
 

@@ -216,16 +216,4 @@ h1 {
   color: black;
 }
 
-@media screen and (max-width: 759px) {
-  .card {
-    width: calc(100% - 20px);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .card {
-    width: calc(100% - 20px);
-  }
-}
-
 </style>

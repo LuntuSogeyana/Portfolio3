@@ -91,21 +91,17 @@ export default {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* font-family: Arial, sans-serif;  */
 	overflow-x: hidden;
-
 }
 
 #testimonials {
 	margin-top: 55px;
-	overflow-y: hidden;
 	overflow: hidden;
 }
 
 button,
 input,
 select {
-	/* font-family: inherit; */
 	font-size: 100%;
 	box-sizing: border-box;
 	padding: 0;
@@ -118,14 +114,12 @@ html {
 
 body {
 	color: #000;
-	/* font-family: "Shippori Antique", sans-serif; */
 	height: 100vh;
 	display: grid;
 	place-items: center;
 }
 
 .content-wrapper {
-	height: 100%;
 	width: 70%;
 	max-width: 100rem;
 	display: flex;
@@ -133,13 +127,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 5rem;
-	margin-left: 230px;
+	margin: 0 auto; /* Center the content */
 }
 
 h1 {
 	margin-bottom: calc(0.7rem + 0.5vmin);
 	font-size: calc(2.3rem + 1vmin);
-	overflow: hidden;
 	color: white;
 }
 
@@ -153,11 +146,13 @@ h1 {
 .wrapper-for-arrows {
 	position: relative;
 	width: 70%;
+	max-width: 800px; /* Add a max-width for better control */
 	border-radius: 2rem;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 	overflow: hidden;
 	display: grid;
 	place-items: center;
+	margin: 0 auto;
 }
 
 .review-wrap {
@@ -168,50 +163,33 @@ h1 {
 	padding-top: calc(2rem + 1vmin);
 	width: 100%;
 	background-color: rgb(62, 61, 61);
-	margin-left: 0px;
 }
 
 #imgDiv {
-  border-radius: 50%;
-  width: calc(6rem + 4vmin);
-  height: calc(6rem + 4vmin);
-  position: relative;
-  box-shadow: 5px -3px yellow;
-  background-size: cover;
-  margin-bottom: calc(0.7rem + 0.5vmin);
-  overflow: hidden;
+	border-radius: 50%;
+	width: calc(6rem + 4vmin);
+	height: calc(6rem + 4vmin);
+	position: relative;
+	box-shadow: 5px -3px yellow;
+	background-size: cover;
+	margin-bottom: calc(0.7rem + 0.5vmin);
+	overflow: hidden;
+	animation: mover 1s infinite alternate;
 }
 
-#imgDiv {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-}
-#imgDiv {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-10px); }
 }
 
 #imgDiv img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-
 #imgDiv::after {
-	content: "''";
-	font-size: calc(2rem + 2vmin);
-	/* font-family: sans-serif; */
-	line-height: 150%;
-	color: #fff;
+	content: '';
 	display: grid;
 	place-items: center;
 	border-radius: 50%;
@@ -253,8 +231,8 @@ h1 {
 .arrow-wrap {
 	position: absolute;
 	top: 50%;
-	overflow-y: hidden;
-	overflow-x: hidden;
+	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 .arrow {
@@ -262,27 +240,22 @@ h1 {
 	height: calc(1.4rem + 0.6vmin);
 	border: solid yellow;
 	border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
-	cursor: pointer;
 	transition: transform 0.3s;
-
 }
 
 .arrow:hover {
-	transition: 0.3s;
 	transform: scale(1.15);
 }
 
 .left-arrow-wrap {
 	left: 5%;
 	transform: rotate(135deg);
-	-webkit-transform: rotate(135deg);
 	box-shadow: 0px 5px 15px yellow;
 }
 
 .right-arrow-wrap {
-	transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
 	right: 5%;
+	transform: rotate(-45deg);
 	box-shadow: 0px 5px 15px yellow;
 }
 
@@ -292,19 +265,13 @@ h1 {
 }
 
 @keyframes moveHead {
-	0% {
-	}
-	25% {
-		transform: translate(0.5rem, 1rem) rotate(5deg);
-	}
-	100% {
-		transform: translate(0, 0) rotate(-5deg);
-	}
+	25% { transform: translate(0.5rem, 1rem) rotate(5deg); }
+	100% { transform: translate(0, 0) rotate(-5deg); }
 }
 
 @media screen and (max-width: 900px) {
 	.content-wrapper {
-		width: 100%;
+		width: 90%;
 		margin-left: 0;
 		padding: 0 2rem;
 	}
@@ -319,33 +286,36 @@ h1 {
 
 	.wrapper-for-arrows {
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		max-width: none;
 	}
 
 	.arrow-wrap {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
+		top: auto;
+		bottom: 10%;
 	}
 
 	.left-arrow-wrap {
-		left: 2%;
-		transform: rotate(135deg);
-		-webkit-transform: rotate(135deg);
+		left: 10%;
 	}
 
 	.right-arrow-wrap {
-		right: 2%;
-		transform: rotate(-45deg);
-		-webkit-transform: rotate(-45deg);
+		right: 10%;
 	}
 
-	.move-head {
-		display: none;
+	#personName {
+		font-size: large;
+	}
+
+	#profession {
+		font-size: medium;
+	}
+
+	#description {
+		font-size: medium;
+		width: 90%;
 	}
 }
+
 
 
 </style>

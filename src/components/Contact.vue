@@ -58,34 +58,45 @@ export default {
 
 .contact {
   max-width: 600px;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 20px;
   color: white;
   border: 2px solid yellow;
   border-radius: 5px;
-  height: 69vh;
+  min-height: 69vh;
   background-color: rgb(62, 61, 61);
-  /* box-shadow: 0px 5px 15px yellow; */
-  overflow-x: hidden;
-  overflow-y: hidden;
-  transition: 0.01s;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .con-head {
   color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
+
 h1 {
   color: yellow;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .contact:hover {
-    box-shadow: 0px 5px 15px yellow;
+  box-shadow: 0px 5px 15px yellow;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   background-color: black;
   color: yellow;
+  border: 2px solid yellow;
+  border-radius: 5px;
 }
 
 .form-group {
@@ -101,20 +112,24 @@ label {
 input,
 textarea {
   width: 100%;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
   border-radius: 5px;
-  /* box-shadow: 0px 5px 15px yellow; */
   font-size: 16px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #222;
 }
 
 button[type="submit"] {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 2px solid yellow;
-  /* box-shadow: 0px 5px 15px yellow; */
   background-color: black;
   color: yellow;
   font-size: 16px;
@@ -127,5 +142,25 @@ button[type="submit"]:hover {
   color: black;
   font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 15px;
+  }
+
+  .con-head {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
 </style>
 
